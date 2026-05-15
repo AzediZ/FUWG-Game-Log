@@ -9,12 +9,12 @@
 <body>
   <header class="hero">
     <div class="shell">
-      <div class="eyebrow">HOI4 Game Log Archive</div>
+      <div class="eyebrow">HOI4 Parsed Game Log Archive</div>
       <h1>Animated campaign recaps by game date.</h1>
-      <p class="lead">Choose a logged game below to watch a parsed-data animated map recap. This repo is built around parsed save data only, using state owner data to determine state faction colour.</p>
+      <p class="lead">This repo now uses parsed save data only. Every frame colours every state by its controller tag, then maps that controller to a faction colour.</p>
       <div class="actions">
         <a class="btn primary" href="#games">View games</a>
-        <a class="btn" href="games/2026-05-15-full-run-parsed-v2/">Open latest sample</a>
+        <a class="btn" href="games/2026-05-15-full-run-controller-v2/">Open latest sample</a>
       </div>
     </div>
   </header>
@@ -30,35 +30,71 @@
       <div id="gameGrid" class="grid"></div>
 
       <section class="howto">
-        <h2>Adding another parsed game</h2>
-        <p class="muted">Upload the generated parsed game folder into <code>games/YYYY-MM-DD-something/</code>, then add one entry to <code>games/games.json</code>.</p>
-        <pre>{
-  "date": "2026-05-16",
-  "title": "FUWG Parsed Save Run - 16 May 2026",
-  "description": "Parsed-data animation generated from autosave snapshots.",
-  "path": "games/2026-05-16-full-run/",
-  "mod": "FUWG",
-  "status": "Published"
-}</pre>
+        <h2>Renderer rules</h2>
+        <p class="muted">For each frame, for each parsed state: read the controller tag, look up that tag in the faction map, and colour the state accordingly. No owner fallback unless the parsed controller field is blank.</p>
+        <pre id="mappingBox"></pre>
       </section>
     </div>
   </main>
 
   <footer class="footer">
-    <div class="shell">Static GitHub Pages site · parsed save data renderer · no server required beyond static hosting.</div>
+    <div class="shell">Static GitHub Pages site · parsed save data renderer · controller-based state colouring.</div>
   </footer>
 
   <script>
+    const factionMap = {
+  "ALB": "axis",
+  "AST": "allies",
+  "AUS": "axis",
+  "BEL": "allies",
+  "BUL": "axis",
+  "CAN": "allies",
+  "CHI": "neutral",
+  "CZE": "axis",
+  "EFR": "neutral",
+  "ENG": "allies",
+  "ETH": "axis",
+  "FIN": "axis",
+  "FRA": "allies",
+  "GER": "axis",
+  "GRE": "allies",
+  "HOL": "allies",
+  "HUN": "axis",
+  "INS": "allies",
+  "IRE": "allies",
+  "ITA": "axis",
+  "JAP": "geacps",
+  "LIT": "comintern",
+  "NUL": "neutral",
+  "NZL": "allies",
+  "POL": "allies",
+  "RAJ": "allies",
+  "ROM": "axis",
+  "SAF": "allies",
+  "SAU": "allies",
+  "SOV": "comintern",
+  "SPR": "axis",
+  "SWE": "axis",
+  "TUR": "comintern",
+  "USA": "allies",
+  "VEN": "axis",
+  "YUG": "allies",
+  "MAN": "geacps",
+  "MEN": "geacps",
+  "SIA": "geacps",
+  "MON": "comintern",
+  "TAN": "comintern",
+  "LAT": "comintern",
+  "EST": "comintern"
+};
+    document.getElementById('mappingBox').textContent = JSON.stringify(factionMap, null, 2);
     async function loadGames(){
       const grid = document.getElementById('gameGrid');
       try{
         const res = await fetch('games/games.json', {cache:'no-store'});
         if(!res.ok) throw new Error('Could not load games/games.json');
         const games = await res.json();
-        if(!games.length){
-          grid.innerHTML = '<div class="empty">No game logs have been added yet.</div>';
-          return;
-        }
+        if(!games.length){ grid.innerHTML = '<div class="empty">No game logs have been added yet.</div>'; return; }
         games.sort((a,b)=>String(b.date).localeCompare(String(a.date)));
         grid.innerHTML = games.map(game => `
           <article class="card">
@@ -70,15 +106,12 @@
               <span class="pill">${escapeHtml(game.status || 'Available')}</span>
             </div>
             <a class="btn primary" href="${encodeURI(game.path)}">Watch animation</a>
-          </article>
-        `).join('');
+          </article>`).join('');
       }catch(err){
         grid.innerHTML = `<div class="empty">${escapeHtml(err.message)}. If opening locally, use a small local server or upload to GitHub Pages.</div>`;
       }
     }
-    function escapeHtml(value){
-      return String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
-    }
+    function escapeHtml(value){ return String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c])); }
     loadGames();
   </script>
 </body>
