@@ -1,18 +1,10 @@
 [
   {
-    "date": "2026-05-15",
-    "title": "FUWG Game Log - 15 May 2026",
-    "description": "Axis victory animation with east-Africa push to South Africa, west Africa falling later, full DEI/Philippines invasion, India river line, and Barbarossa to key Soviet cities.",
-    "path": "games/2026-05-15/",
-    "mod": "FUWG",
+    "date": "2026-05-15-save-test",
+    "title": "HOI4 Save Parser Test - 15 May 2026",
+    "description": "Quick timeline built from the uploaded autosave parser run, ending around September 1936.",
+    "path": "games/2026-05-15-save-test/",
+    "mod": "FUWG/HOI4",
     "status": "Generated"
-  },
-  {
-    "date": "2026-05-13",
-    "title": "FUWG Game Log - 13 May 2026",
-    "description": "Day-by-day animated campaign recap based on the test game log.",
-    "path": "games/2026-05-13/",
-    "mod": "FUWG",
-    "status": "Sample / runnable base"
   }
 ]
