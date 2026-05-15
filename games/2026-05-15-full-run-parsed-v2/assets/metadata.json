@@ -1,0 +1,1272 @@
+{
+  "width": 1408,
+  "height": 512,
+  "gameDate": "15/05/2026",
+  "source": "parser_upload_20260515_222454",
+  "renderMode": "fullFrames",
+  "snapshotCount": 209,
+  "startDate": "1936.1.3.14",
+  "endDate": "1940.1.27.14",
+  "snapshots": [
+    {
+      "index": 1,
+      "game_date": "1936.1.3.14",
+      "display_date": "03 Jan 1936",
+      "frame": "frames/frame_000.png"
+    },
+    {
+      "index": 2,
+      "game_date": "1936.1.10.14",
+      "display_date": "10 Jan 1936",
+      "frame": "frames/frame_001.png"
+    },
+    {
+      "index": 3,
+      "game_date": "1936.1.17.14",
+      "display_date": "17 Jan 1936",
+      "frame": "frames/frame_002.png"
+    },
+    {
+      "index": 4,
+      "game_date": "1936.1.24.14",
+      "display_date": "24 Jan 1936",
+      "frame": "frames/frame_003.png"
+    },
+    {
+      "index": 5,
+      "game_date": "1936.1.31.14",
+      "display_date": "31 Jan 1936",
+      "frame": "frames/frame_004.png"
+    },
+    {
+      "index": 6,
+      "game_date": "1936.2.7.14",
+      "display_date": "07 Feb 1936",
+      "frame": "frames/frame_005.png"
+    },
+    {
+      "index": 7,
+      "game_date": "1936.2.14.14",
+      "display_date": "14 Feb 1936",
+      "frame": "frames/frame_006.png"
+    },
+    {
+      "index": 8,
+      "game_date": "1936.2.21.14",
+      "display_date": "21 Feb 1936",
+      "frame": "frames/frame_007.png"
+    },
+    {
+      "index": 9,
+      "game_date": "1936.2.28.14",
+      "display_date": "28 Feb 1936",
+      "frame": "frames/frame_008.png"
+    },
+    {
+      "index": 10,
+      "game_date": "1936.3.7.14",
+      "display_date": "07 Mar 1936",
+      "frame": "frames/frame_009.png"
+    },
+    {
+      "index": 11,
+      "game_date": "1936.3.14.14",
+      "display_date": "14 Mar 1936",
+      "frame": "frames/frame_010.png"
+    },
+    {
+      "index": 12,
+      "game_date": "1936.3.21.14",
+      "display_date": "21 Mar 1936",
+      "frame": "frames/frame_011.png"
+    },
+    {
+      "index": 13,
+      "game_date": "1936.3.28.14",
+      "display_date": "28 Mar 1936",
+      "frame": "frames/frame_012.png"
+    },
+    {
+      "index": 14,
+      "game_date": "1936.4.4.14",
+      "display_date": "04 Apr 1936",
+      "frame": "frames/frame_013.png"
+    },
+    {
+      "index": 15,
+      "game_date": "1936.4.11.14",
+      "display_date": "11 Apr 1936",
+      "frame": "frames/frame_014.png"
+    },
+    {
+      "index": 16,
+      "game_date": "1936.4.18.14",
+      "display_date": "18 Apr 1936",
+      "frame": "frames/frame_015.png"
+    },
+    {
+      "index": 17,
+      "game_date": "1936.4.25.14",
+      "display_date": "25 Apr 1936",
+      "frame": "frames/frame_016.png"
+    },
+    {
+      "index": 18,
+      "game_date": "1936.5.2.14",
+      "display_date": "02 May 1936",
+      "frame": "frames/frame_017.png"
+    },
+    {
+      "index": 19,
+      "game_date": "1936.5.9.14",
+      "display_date": "09 May 1936",
+      "frame": "frames/frame_018.png"
+    },
+    {
+      "index": 20,
+      "game_date": "1936.5.16.14",
+      "display_date": "16 May 1936",
+      "frame": "frames/frame_019.png"
+    },
+    {
+      "index": 21,
+      "game_date": "1936.5.23.14",
+      "display_date": "23 May 1936",
+      "frame": "frames/frame_020.png"
+    },
+    {
+      "index": 22,
+      "game_date": "1936.5.30.14",
+      "display_date": "30 May 1936",
+      "frame": "frames/frame_021.png"
+    },
+    {
+      "index": 23,
+      "game_date": "1936.6.6.14",
+      "display_date": "06 Jun 1936",
+      "frame": "frames/frame_022.png"
+    },
+    {
+      "index": 24,
+      "game_date": "1936.6.13.14",
+      "display_date": "13 Jun 1936",
+      "frame": "frames/frame_023.png"
+    },
+    {
+      "index": 25,
+      "game_date": "1936.6.20.14",
+      "display_date": "20 Jun 1936",
+      "frame": "frames/frame_024.png"
+    },
+    {
+      "index": 26,
+      "game_date": "1936.6.27.14",
+      "display_date": "27 Jun 1936",
+      "frame": "frames/frame_025.png"
+    },
+    {
+      "index": 27,
+      "game_date": "1936.7.4.14",
+      "display_date": "04 Jul 1936",
+      "frame": "frames/frame_026.png"
+    },
+    {
+      "index": 28,
+      "game_date": "1936.7.11.14",
+      "display_date": "11 Jul 1936",
+      "frame": "frames/frame_027.png"
+    },
+    {
+      "index": 29,
+      "game_date": "1936.7.18.14",
+      "display_date": "18 Jul 1936",
+      "frame": "frames/frame_028.png"
+    },
+    {
+      "index": 30,
+      "game_date": "1936.7.25.14",
+      "display_date": "25 Jul 1936",
+      "frame": "frames/frame_029.png"
+    },
+    {
+      "index": 31,
+      "game_date": "1936.8.1.14",
+      "display_date": "01 Aug 1936",
+      "frame": "frames/frame_030.png"
+    },
+    {
+      "index": 32,
+      "game_date": "1936.8.8.14",
+      "display_date": "08 Aug 1936",
+      "frame": "frames/frame_031.png"
+    },
+    {
+      "index": 33,
+      "game_date": "1936.8.15.14",
+      "display_date": "15 Aug 1936",
+      "frame": "frames/frame_032.png"
+    },
+    {
+      "index": 34,
+      "game_date": "1936.8.22.14",
+      "display_date": "22 Aug 1936",
+      "frame": "frames/frame_033.png"
+    },
+    {
+      "index": 35,
+      "game_date": "1936.8.29.14",
+      "display_date": "29 Aug 1936",
+      "frame": "frames/frame_034.png"
+    },
+    {
+      "index": 36,
+      "game_date": "1936.9.5.14",
+      "display_date": "05 Sep 1936",
+      "frame": "frames/frame_035.png"
+    },
+    {
+      "index": 37,
+      "game_date": "1936.9.12.14",
+      "display_date": "12 Sep 1936",
+      "frame": "frames/frame_036.png"
+    },
+    {
+      "index": 38,
+      "game_date": "1936.9.19.14",
+      "display_date": "19 Sep 1936",
+      "frame": "frames/frame_037.png"
+    },
+    {
+      "index": 39,
+      "game_date": "1936.9.26.14",
+      "display_date": "26 Sep 1936",
+      "frame": "frames/frame_038.png"
+    },
+    {
+      "index": 40,
+      "game_date": "1936.10.3.14",
+      "display_date": "03 Oct 1936",
+      "frame": "frames/frame_039.png"
+    },
+    {
+      "index": 41,
+      "game_date": "1936.10.10.14",
+      "display_date": "10 Oct 1936",
+      "frame": "frames/frame_040.png"
+    },
+    {
+      "index": 42,
+      "game_date": "1936.10.17.14",
+      "display_date": "17 Oct 1936",
+      "frame": "frames/frame_041.png"
+    },
+    {
+      "index": 43,
+      "game_date": "1936.10.24.14",
+      "display_date": "24 Oct 1936",
+      "frame": "frames/frame_042.png"
+    },
+    {
+      "index": 44,
+      "game_date": "1936.10.31.14",
+      "display_date": "31 Oct 1936",
+      "frame": "frames/frame_043.png"
+    },
+    {
+      "index": 45,
+      "game_date": "1936.11.7.14",
+      "display_date": "07 Nov 1936",
+      "frame": "frames/frame_044.png"
+    },
+    {
+      "index": 46,
+      "game_date": "1936.11.14.14",
+      "display_date": "14 Nov 1936",
+      "frame": "frames/frame_045.png"
+    },
+    {
+      "index": 47,
+      "game_date": "1936.11.21.14",
+      "display_date": "21 Nov 1936",
+      "frame": "frames/frame_046.png"
+    },
+    {
+      "index": 48,
+      "game_date": "1936.11.28.14",
+      "display_date": "28 Nov 1936",
+      "frame": "frames/frame_047.png"
+    },
+    {
+      "index": 49,
+      "game_date": "1936.12.5.14",
+      "display_date": "05 Dec 1936",
+      "frame": "frames/frame_048.png"
+    },
+    {
+      "index": 50,
+      "game_date": "1936.12.12.14",
+      "display_date": "12 Dec 1936",
+      "frame": "frames/frame_049.png"
+    },
+    {
+      "index": 51,
+      "game_date": "1936.12.19.14",
+      "display_date": "19 Dec 1936",
+      "frame": "frames/frame_050.png"
+    },
+    {
+      "index": 52,
+      "game_date": "1936.12.26.14",
+      "display_date": "26 Dec 1936",
+      "frame": "frames/frame_051.png"
+    },
+    {
+      "index": 53,
+      "game_date": "1937.1.9.14",
+      "display_date": "09 Jan 1937",
+      "frame": "frames/frame_052.png"
+    },
+    {
+      "index": 54,
+      "game_date": "1937.1.16.14",
+      "display_date": "16 Jan 1937",
+      "frame": "frames/frame_053.png"
+    },
+    {
+      "index": 55,
+      "game_date": "1937.1.23.14",
+      "display_date": "23 Jan 1937",
+      "frame": "frames/frame_054.png"
+    },
+    {
+      "index": 56,
+      "game_date": "1937.1.30.14",
+      "display_date": "30 Jan 1937",
+      "frame": "frames/frame_055.png"
+    },
+    {
+      "index": 57,
+      "game_date": "1937.2.6.14",
+      "display_date": "06 Feb 1937",
+      "frame": "frames/frame_056.png"
+    },
+    {
+      "index": 58,
+      "game_date": "1937.2.13.14",
+      "display_date": "13 Feb 1937",
+      "frame": "frames/frame_057.png"
+    },
+    {
+      "index": 59,
+      "game_date": "1937.2.20.14",
+      "display_date": "20 Feb 1937",
+      "frame": "frames/frame_058.png"
+    },
+    {
+      "index": 60,
+      "game_date": "1937.2.27.14",
+      "display_date": "27 Feb 1937",
+      "frame": "frames/frame_059.png"
+    },
+    {
+      "index": 61,
+      "game_date": "1937.3.6.14",
+      "display_date": "06 Mar 1937",
+      "frame": "frames/frame_060.png"
+    },
+    {
+      "index": 62,
+      "game_date": "1937.3.13.14",
+      "display_date": "13 Mar 1937",
+      "frame": "frames/frame_061.png"
+    },
+    {
+      "index": 63,
+      "game_date": "1937.3.20.14",
+      "display_date": "20 Mar 1937",
+      "frame": "frames/frame_062.png"
+    },
+    {
+      "index": 64,
+      "game_date": "1937.3.27.14",
+      "display_date": "27 Mar 1937",
+      "frame": "frames/frame_063.png"
+    },
+    {
+      "index": 65,
+      "game_date": "1937.4.3.14",
+      "display_date": "03 Apr 1937",
+      "frame": "frames/frame_064.png"
+    },
+    {
+      "index": 66,
+      "game_date": "1937.4.10.14",
+      "display_date": "10 Apr 1937",
+      "frame": "frames/frame_065.png"
+    },
+    {
+      "index": 67,
+      "game_date": "1937.4.17.14",
+      "display_date": "17 Apr 1937",
+      "frame": "frames/frame_066.png"
+    },
+    {
+      "index": 68,
+      "game_date": "1937.4.24.14",
+      "display_date": "24 Apr 1937",
+      "frame": "frames/frame_067.png"
+    },
+    {
+      "index": 69,
+      "game_date": "1937.5.1.14",
+      "display_date": "01 May 1937",
+      "frame": "frames/frame_068.png"
+    },
+    {
+      "index": 70,
+      "game_date": "1937.5.8.14",
+      "display_date": "08 May 1937",
+      "frame": "frames/frame_069.png"
+    },
+    {
+      "index": 71,
+      "game_date": "1937.5.15.14",
+      "display_date": "15 May 1937",
+      "frame": "frames/frame_070.png"
+    },
+    {
+      "index": 72,
+      "game_date": "1937.5.22.14",
+      "display_date": "22 May 1937",
+      "frame": "frames/frame_071.png"
+    },
+    {
+      "index": 73,
+      "game_date": "1937.5.29.14",
+      "display_date": "29 May 1937",
+      "frame": "frames/frame_072.png"
+    },
+    {
+      "index": 74,
+      "game_date": "1937.6.5.14",
+      "display_date": "05 Jun 1937",
+      "frame": "frames/frame_073.png"
+    },
+    {
+      "index": 75,
+      "game_date": "1937.6.12.14",
+      "display_date": "12 Jun 1937",
+      "frame": "frames/frame_074.png"
+    },
+    {
+      "index": 76,
+      "game_date": "1937.6.19.14",
+      "display_date": "19 Jun 1937",
+      "frame": "frames/frame_075.png"
+    },
+    {
+      "index": 77,
+      "game_date": "1937.6.26.14",
+      "display_date": "26 Jun 1937",
+      "frame": "frames/frame_076.png"
+    },
+    {
+      "index": 78,
+      "game_date": "1937.7.3.14",
+      "display_date": "03 Jul 1937",
+      "frame": "frames/frame_077.png"
+    },
+    {
+      "index": 79,
+      "game_date": "1937.7.10.14",
+      "display_date": "10 Jul 1937",
+      "frame": "frames/frame_078.png"
+    },
+    {
+      "index": 80,
+      "game_date": "1937.7.17.14",
+      "display_date": "17 Jul 1937",
+      "frame": "frames/frame_079.png"
+    },
+    {
+      "index": 81,
+      "game_date": "1937.7.24.14",
+      "display_date": "24 Jul 1937",
+      "frame": "frames/frame_080.png"
+    },
+    {
+      "index": 82,
+      "game_date": "1937.7.31.14",
+      "display_date": "31 Jul 1937",
+      "frame": "frames/frame_081.png"
+    },
+    {
+      "index": 83,
+      "game_date": "1937.8.7.14",
+      "display_date": "07 Aug 1937",
+      "frame": "frames/frame_082.png"
+    },
+    {
+      "index": 84,
+      "game_date": "1937.8.14.14",
+      "display_date": "14 Aug 1937",
+      "frame": "frames/frame_083.png"
+    },
+    {
+      "index": 85,
+      "game_date": "1937.8.21.14",
+      "display_date": "21 Aug 1937",
+      "frame": "frames/frame_084.png"
+    },
+    {
+      "index": 86,
+      "game_date": "1937.8.28.14",
+      "display_date": "28 Aug 1937",
+      "frame": "frames/frame_085.png"
+    },
+    {
+      "index": 87,
+      "game_date": "1937.9.4.14",
+      "display_date": "04 Sep 1937",
+      "frame": "frames/frame_086.png"
+    },
+    {
+      "index": 88,
+      "game_date": "1937.9.11.14",
+      "display_date": "11 Sep 1937",
+      "frame": "frames/frame_087.png"
+    },
+    {
+      "index": 89,
+      "game_date": "1937.9.18.14",
+      "display_date": "18 Sep 1937",
+      "frame": "frames/frame_088.png"
+    },
+    {
+      "index": 90,
+      "game_date": "1937.9.25.14",
+      "display_date": "25 Sep 1937",
+      "frame": "frames/frame_089.png"
+    },
+    {
+      "index": 91,
+      "game_date": "1937.10.2.14",
+      "display_date": "02 Oct 1937",
+      "frame": "frames/frame_090.png"
+    },
+    {
+      "index": 92,
+      "game_date": "1937.10.9.14",
+      "display_date": "09 Oct 1937",
+      "frame": "frames/frame_091.png"
+    },
+    {
+      "index": 93,
+      "game_date": "1937.10.16.14",
+      "display_date": "16 Oct 1937",
+      "frame": "frames/frame_092.png"
+    },
+    {
+      "index": 94,
+      "game_date": "1937.10.23.14",
+      "display_date": "23 Oct 1937",
+      "frame": "frames/frame_093.png"
+    },
+    {
+      "index": 95,
+      "game_date": "1937.10.30.14",
+      "display_date": "30 Oct 1937",
+      "frame": "frames/frame_094.png"
+    },
+    {
+      "index": 96,
+      "game_date": "1937.11.6.14",
+      "display_date": "06 Nov 1937",
+      "frame": "frames/frame_095.png"
+    },
+    {
+      "index": 97,
+      "game_date": "1937.11.13.14",
+      "display_date": "13 Nov 1937",
+      "frame": "frames/frame_096.png"
+    },
+    {
+      "index": 98,
+      "game_date": "1937.11.20.14",
+      "display_date": "20 Nov 1937",
+      "frame": "frames/frame_097.png"
+    },
+    {
+      "index": 99,
+      "game_date": "1937.11.27.14",
+      "display_date": "27 Nov 1937",
+      "frame": "frames/frame_098.png"
+    },
+    {
+      "index": 100,
+      "game_date": "1937.12.4.14",
+      "display_date": "04 Dec 1937",
+      "frame": "frames/frame_099.png"
+    },
+    {
+      "index": 101,
+      "game_date": "1937.12.11.14",
+      "display_date": "11 Dec 1937",
+      "frame": "frames/frame_100.png"
+    },
+    {
+      "index": 102,
+      "game_date": "1937.12.18.14",
+      "display_date": "18 Dec 1937",
+      "frame": "frames/frame_101.png"
+    },
+    {
+      "index": 103,
+      "game_date": "1937.12.25.14",
+      "display_date": "25 Dec 1937",
+      "frame": "frames/frame_102.png"
+    },
+    {
+      "index": 104,
+      "game_date": "1938.1.8.14",
+      "display_date": "08 Jan 1938",
+      "frame": "frames/frame_103.png"
+    },
+    {
+      "index": 105,
+      "game_date": "1938.1.15.14",
+      "display_date": "15 Jan 1938",
+      "frame": "frames/frame_104.png"
+    },
+    {
+      "index": 106,
+      "game_date": "1938.1.22.14",
+      "display_date": "22 Jan 1938",
+      "frame": "frames/frame_105.png"
+    },
+    {
+      "index": 107,
+      "game_date": "1938.1.29.14",
+      "display_date": "29 Jan 1938",
+      "frame": "frames/frame_106.png"
+    },
+    {
+      "index": 108,
+      "game_date": "1938.2.5.14",
+      "display_date": "05 Feb 1938",
+      "frame": "frames/frame_107.png"
+    },
+    {
+      "index": 109,
+      "game_date": "1938.2.12.14",
+      "display_date": "12 Feb 1938",
+      "frame": "frames/frame_108.png"
+    },
+    {
+      "index": 110,
+      "game_date": "1938.2.19.14",
+      "display_date": "19 Feb 1938",
+      "frame": "frames/frame_109.png"
+    },
+    {
+      "index": 111,
+      "game_date": "1938.2.26.14",
+      "display_date": "26 Feb 1938",
+      "frame": "frames/frame_110.png"
+    },
+    {
+      "index": 112,
+      "game_date": "1938.3.5.14",
+      "display_date": "05 Mar 1938",
+      "frame": "frames/frame_111.png"
+    },
+    {
+      "index": 113,
+      "game_date": "1938.3.12.14",
+      "display_date": "12 Mar 1938",
+      "frame": "frames/frame_112.png"
+    },
+    {
+      "index": 114,
+      "game_date": "1938.3.19.14",
+      "display_date": "19 Mar 1938",
+      "frame": "frames/frame_113.png"
+    },
+    {
+      "index": 115,
+      "game_date": "1938.3.26.14",
+      "display_date": "26 Mar 1938",
+      "frame": "frames/frame_114.png"
+    },
+    {
+      "index": 116,
+      "game_date": "1938.4.2.14",
+      "display_date": "02 Apr 1938",
+      "frame": "frames/frame_115.png"
+    },
+    {
+      "index": 117,
+      "game_date": "1938.4.9.14",
+      "display_date": "09 Apr 1938",
+      "frame": "frames/frame_116.png"
+    },
+    {
+      "index": 118,
+      "game_date": "1938.4.16.14",
+      "display_date": "16 Apr 1938",
+      "frame": "frames/frame_117.png"
+    },
+    {
+      "index": 119,
+      "game_date": "1938.4.23.14",
+      "display_date": "23 Apr 1938",
+      "frame": "frames/frame_118.png"
+    },
+    {
+      "index": 120,
+      "game_date": "1938.4.30.14",
+      "display_date": "30 Apr 1938",
+      "frame": "frames/frame_119.png"
+    },
+    {
+      "index": 121,
+      "game_date": "1938.5.7.14",
+      "display_date": "07 May 1938",
+      "frame": "frames/frame_120.png"
+    },
+    {
+      "index": 122,
+      "game_date": "1938.5.14.14",
+      "display_date": "14 May 1938",
+      "frame": "frames/frame_121.png"
+    },
+    {
+      "index": 123,
+      "game_date": "1938.5.21.14",
+      "display_date": "21 May 1938",
+      "frame": "frames/frame_122.png"
+    },
+    {
+      "index": 124,
+      "game_date": "1938.5.28.14",
+      "display_date": "28 May 1938",
+      "frame": "frames/frame_123.png"
+    },
+    {
+      "index": 125,
+      "game_date": "1938.6.4.14",
+      "display_date": "04 Jun 1938",
+      "frame": "frames/frame_124.png"
+    },
+    {
+      "index": 126,
+      "game_date": "1938.6.11.14",
+      "display_date": "11 Jun 1938",
+      "frame": "frames/frame_125.png"
+    },
+    {
+      "index": 127,
+      "game_date": "1938.6.18.14",
+      "display_date": "18 Jun 1938",
+      "frame": "frames/frame_126.png"
+    },
+    {
+      "index": 128,
+      "game_date": "1938.6.25.14",
+      "display_date": "25 Jun 1938",
+      "frame": "frames/frame_127.png"
+    },
+    {
+      "index": 129,
+      "game_date": "1938.7.2.14",
+      "display_date": "02 Jul 1938",
+      "frame": "frames/frame_128.png"
+    },
+    {
+      "index": 130,
+      "game_date": "1938.7.9.14",
+      "display_date": "09 Jul 1938",
+      "frame": "frames/frame_129.png"
+    },
+    {
+      "index": 131,
+      "game_date": "1938.7.16.14",
+      "display_date": "16 Jul 1938",
+      "frame": "frames/frame_130.png"
+    },
+    {
+      "index": 132,
+      "game_date": "1938.7.23.14",
+      "display_date": "23 Jul 1938",
+      "frame": "frames/frame_131.png"
+    },
+    {
+      "index": 133,
+      "game_date": "1938.7.30.14",
+      "display_date": "30 Jul 1938",
+      "frame": "frames/frame_132.png"
+    },
+    {
+      "index": 134,
+      "game_date": "1938.8.6.14",
+      "display_date": "06 Aug 1938",
+      "frame": "frames/frame_133.png"
+    },
+    {
+      "index": 135,
+      "game_date": "1938.8.13.14",
+      "display_date": "13 Aug 1938",
+      "frame": "frames/frame_134.png"
+    },
+    {
+      "index": 136,
+      "game_date": "1938.8.20.14",
+      "display_date": "20 Aug 1938",
+      "frame": "frames/frame_135.png"
+    },
+    {
+      "index": 137,
+      "game_date": "1938.8.27.14",
+      "display_date": "27 Aug 1938",
+      "frame": "frames/frame_136.png"
+    },
+    {
+      "index": 138,
+      "game_date": "1938.9.3.14",
+      "display_date": "03 Sep 1938",
+      "frame": "frames/frame_137.png"
+    },
+    {
+      "index": 139,
+      "game_date": "1938.9.10.14",
+      "display_date": "10 Sep 1938",
+      "frame": "frames/frame_138.png"
+    },
+    {
+      "index": 140,
+      "game_date": "1938.9.17.14",
+      "display_date": "17 Sep 1938",
+      "frame": "frames/frame_139.png"
+    },
+    {
+      "index": 141,
+      "game_date": "1938.9.24.14",
+      "display_date": "24 Sep 1938",
+      "frame": "frames/frame_140.png"
+    },
+    {
+      "index": 142,
+      "game_date": "1938.10.1.14",
+      "display_date": "01 Oct 1938",
+      "frame": "frames/frame_141.png"
+    },
+    {
+      "index": 143,
+      "game_date": "1938.10.8.14",
+      "display_date": "08 Oct 1938",
+      "frame": "frames/frame_142.png"
+    },
+    {
+      "index": 144,
+      "game_date": "1938.10.15.14",
+      "display_date": "15 Oct 1938",
+      "frame": "frames/frame_143.png"
+    },
+    {
+      "index": 145,
+      "game_date": "1938.10.22.14",
+      "display_date": "22 Oct 1938",
+      "frame": "frames/frame_144.png"
+    },
+    {
+      "index": 146,
+      "game_date": "1938.10.29.14",
+      "display_date": "29 Oct 1938",
+      "frame": "frames/frame_145.png"
+    },
+    {
+      "index": 147,
+      "game_date": "1938.11.5.14",
+      "display_date": "05 Nov 1938",
+      "frame": "frames/frame_146.png"
+    },
+    {
+      "index": 148,
+      "game_date": "1938.11.12.14",
+      "display_date": "12 Nov 1938",
+      "frame": "frames/frame_147.png"
+    },
+    {
+      "index": 149,
+      "game_date": "1938.11.19.14",
+      "display_date": "19 Nov 1938",
+      "frame": "frames/frame_148.png"
+    },
+    {
+      "index": 150,
+      "game_date": "1938.11.26.14",
+      "display_date": "26 Nov 1938",
+      "frame": "frames/frame_149.png"
+    },
+    {
+      "index": 151,
+      "game_date": "1938.12.3.14",
+      "display_date": "03 Dec 1938",
+      "frame": "frames/frame_150.png"
+    },
+    {
+      "index": 152,
+      "game_date": "1938.12.10.14",
+      "display_date": "10 Dec 1938",
+      "frame": "frames/frame_151.png"
+    },
+    {
+      "index": 153,
+      "game_date": "1938.12.17.14",
+      "display_date": "17 Dec 1938",
+      "frame": "frames/frame_152.png"
+    },
+    {
+      "index": 154,
+      "game_date": "1938.12.24.14",
+      "display_date": "24 Dec 1938",
+      "frame": "frames/frame_153.png"
+    },
+    {
+      "index": 155,
+      "game_date": "1938.12.31.14",
+      "display_date": "31 Dec 1938",
+      "frame": "frames/frame_154.png"
+    },
+    {
+      "index": 156,
+      "game_date": "1939.1.14.14",
+      "display_date": "14 Jan 1939",
+      "frame": "frames/frame_155.png"
+    },
+    {
+      "index": 157,
+      "game_date": "1939.1.21.14",
+      "display_date": "21 Jan 1939",
+      "frame": "frames/frame_156.png"
+    },
+    {
+      "index": 158,
+      "game_date": "1939.1.28.14",
+      "display_date": "28 Jan 1939",
+      "frame": "frames/frame_157.png"
+    },
+    {
+      "index": 159,
+      "game_date": "1939.2.4.14",
+      "display_date": "04 Feb 1939",
+      "frame": "frames/frame_158.png"
+    },
+    {
+      "index": 160,
+      "game_date": "1939.2.11.14",
+      "display_date": "11 Feb 1939",
+      "frame": "frames/frame_159.png"
+    },
+    {
+      "index": 161,
+      "game_date": "1939.2.18.14",
+      "display_date": "18 Feb 1939",
+      "frame": "frames/frame_160.png"
+    },
+    {
+      "index": 162,
+      "game_date": "1939.2.25.14",
+      "display_date": "25 Feb 1939",
+      "frame": "frames/frame_161.png"
+    },
+    {
+      "index": 163,
+      "game_date": "1939.3.4.14",
+      "display_date": "04 Mar 1939",
+      "frame": "frames/frame_162.png"
+    },
+    {
+      "index": 164,
+      "game_date": "1939.3.11.14",
+      "display_date": "11 Mar 1939",
+      "frame": "frames/frame_163.png"
+    },
+    {
+      "index": 165,
+      "game_date": "1939.3.18.14",
+      "display_date": "18 Mar 1939",
+      "frame": "frames/frame_164.png"
+    },
+    {
+      "index": 166,
+      "game_date": "1939.3.25.14",
+      "display_date": "25 Mar 1939",
+      "frame": "frames/frame_165.png"
+    },
+    {
+      "index": 167,
+      "game_date": "1939.4.1.14",
+      "display_date": "01 Apr 1939",
+      "frame": "frames/frame_166.png"
+    },
+    {
+      "index": 168,
+      "game_date": "1939.4.8.14",
+      "display_date": "08 Apr 1939",
+      "frame": "frames/frame_167.png"
+    },
+    {
+      "index": 169,
+      "game_date": "1939.4.15.14",
+      "display_date": "15 Apr 1939",
+      "frame": "frames/frame_168.png"
+    },
+    {
+      "index": 170,
+      "game_date": "1939.4.22.14",
+      "display_date": "22 Apr 1939",
+      "frame": "frames/frame_169.png"
+    },
+    {
+      "index": 171,
+      "game_date": "1939.4.29.14",
+      "display_date": "29 Apr 1939",
+      "frame": "frames/frame_170.png"
+    },
+    {
+      "index": 172,
+      "game_date": "1939.5.6.14",
+      "display_date": "06 May 1939",
+      "frame": "frames/frame_171.png"
+    },
+    {
+      "index": 173,
+      "game_date": "1939.5.13.14",
+      "display_date": "13 May 1939",
+      "frame": "frames/frame_172.png"
+    },
+    {
+      "index": 174,
+      "game_date": "1939.5.20.14",
+      "display_date": "20 May 1939",
+      "frame": "frames/frame_173.png"
+    },
+    {
+      "index": 175,
+      "game_date": "1939.5.27.14",
+      "display_date": "27 May 1939",
+      "frame": "frames/frame_174.png"
+    },
+    {
+      "index": 176,
+      "game_date": "1939.6.3.14",
+      "display_date": "03 Jun 1939",
+      "frame": "frames/frame_175.png"
+    },
+    {
+      "index": 177,
+      "game_date": "1939.6.10.14",
+      "display_date": "10 Jun 1939",
+      "frame": "frames/frame_176.png"
+    },
+    {
+      "index": 178,
+      "game_date": "1939.6.17.14",
+      "display_date": "17 Jun 1939",
+      "frame": "frames/frame_177.png"
+    },
+    {
+      "index": 179,
+      "game_date": "1939.6.24.14",
+      "display_date": "24 Jun 1939",
+      "frame": "frames/frame_178.png"
+    },
+    {
+      "index": 180,
+      "game_date": "1939.7.1.14",
+      "display_date": "01 Jul 1939",
+      "frame": "frames/frame_179.png"
+    },
+    {
+      "index": 181,
+      "game_date": "1939.7.8.14",
+      "display_date": "08 Jul 1939",
+      "frame": "frames/frame_180.png"
+    },
+    {
+      "index": 182,
+      "game_date": "1939.7.15.14",
+      "display_date": "15 Jul 1939",
+      "frame": "frames/frame_181.png"
+    },
+    {
+      "index": 183,
+      "game_date": "1939.7.22.14",
+      "display_date": "22 Jul 1939",
+      "frame": "frames/frame_182.png"
+    },
+    {
+      "index": 184,
+      "game_date": "1939.7.29.14",
+      "display_date": "29 Jul 1939",
+      "frame": "frames/frame_183.png"
+    },
+    {
+      "index": 185,
+      "game_date": "1939.8.5.14",
+      "display_date": "05 Aug 1939",
+      "frame": "frames/frame_184.png"
+    },
+    {
+      "index": 186,
+      "game_date": "1939.8.12.14",
+      "display_date": "12 Aug 1939",
+      "frame": "frames/frame_185.png"
+    },
+    {
+      "index": 187,
+      "game_date": "1939.8.19.14",
+      "display_date": "19 Aug 1939",
+      "frame": "frames/frame_186.png"
+    },
+    {
+      "index": 188,
+      "game_date": "1939.8.26.14",
+      "display_date": "26 Aug 1939",
+      "frame": "frames/frame_187.png"
+    },
+    {
+      "index": 189,
+      "game_date": "1939.9.2.14",
+      "display_date": "02 Sep 1939",
+      "frame": "frames/frame_188.png"
+    },
+    {
+      "index": 190,
+      "game_date": "1939.9.9.14",
+      "display_date": "09 Sep 1939",
+      "frame": "frames/frame_189.png"
+    },
+    {
+      "index": 191,
+      "game_date": "1939.9.16.14",
+      "display_date": "16 Sep 1939",
+      "frame": "frames/frame_190.png"
+    },
+    {
+      "index": 192,
+      "game_date": "1939.9.23.14",
+      "display_date": "23 Sep 1939",
+      "frame": "frames/frame_191.png"
+    },
+    {
+      "index": 193,
+      "game_date": "1939.9.30.14",
+      "display_date": "30 Sep 1939",
+      "frame": "frames/frame_192.png"
+    },
+    {
+      "index": 194,
+      "game_date": "1939.10.7.14",
+      "display_date": "07 Oct 1939",
+      "frame": "frames/frame_193.png"
+    },
+    {
+      "index": 195,
+      "game_date": "1939.10.14.14",
+      "display_date": "14 Oct 1939",
+      "frame": "frames/frame_194.png"
+    },
+    {
+      "index": 196,
+      "game_date": "1939.10.21.14",
+      "display_date": "21 Oct 1939",
+      "frame": "frames/frame_195.png"
+    },
+    {
+      "index": 197,
+      "game_date": "1939.10.28.14",
+      "display_date": "28 Oct 1939",
+      "frame": "frames/frame_196.png"
+    },
+    {
+      "index": 198,
+      "game_date": "1939.11.4.14",
+      "display_date": "04 Nov 1939",
+      "frame": "frames/frame_197.png"
+    },
+    {
+      "index": 199,
+      "game_date": "1939.11.11.14",
+      "display_date": "11 Nov 1939",
+      "frame": "frames/frame_198.png"
+    },
+    {
+      "index": 200,
+      "game_date": "1939.11.18.14",
+      "display_date": "18 Nov 1939",
+      "frame": "frames/frame_199.png"
+    },
+    {
+      "index": 201,
+      "game_date": "1939.11.25.14",
+      "display_date": "25 Nov 1939",
+      "frame": "frames/frame_200.png"
+    },
+    {
+      "index": 202,
+      "game_date": "1939.12.2.14",
+      "display_date": "02 Dec 1939",
+      "frame": "frames/frame_201.png"
+    },
+    {
+      "index": 203,
+      "game_date": "1939.12.9.14",
+      "display_date": "09 Dec 1939",
+      "frame": "frames/frame_202.png"
+    },
+    {
+      "index": 204,
+      "game_date": "1939.12.16.14",
+      "display_date": "16 Dec 1939",
+      "frame": "frames/frame_203.png"
+    },
+    {
+      "index": 205,
+      "game_date": "1939.12.23.14",
+      "display_date": "23 Dec 1939",
+      "frame": "frames/frame_204.png"
+    },
+    {
+      "index": 206,
+      "game_date": "1939.12.30.14",
+      "display_date": "30 Dec 1939",
+      "frame": "frames/frame_205.png"
+    },
+    {
+      "index": 207,
+      "game_date": "1940.1.13.14",
+      "display_date": "13 Jan 1940",
+      "frame": "frames/frame_206.png"
+    },
+    {
+      "index": 208,
+      "game_date": "1940.1.20.14",
+      "display_date": "20 Jan 1940",
+      "frame": "frames/frame_207.png"
+    },
+    {
+      "index": 209,
+      "game_date": "1940.1.27.14",
+      "display_date": "27 Jan 1940",
+      "frame": "frames/frame_208.png"
+    }
+  ],
+  "legend": {
+    "axis": "#2b2b2d",
+    "allies": "#5a86cd",
+    "comintern": "#bf3e3e",
+    "neutral": "#7a8088"
+  }
+}
