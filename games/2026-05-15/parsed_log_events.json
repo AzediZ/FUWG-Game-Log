@@ -1,0 +1,37 @@
+[
+  {
+    "date": "1937-03-01",
+    "date_end": "1937-12-31",
+    "note": "Germany follows the usual build-up, taking Anschluss in 1937 and then submitting Czechoslovakia."
+  },
+  {
+    "date": "1939-01-01",
+    "date_end": "1939-01-31",
+    "note": "World War II begins on 1 January 1939; Axis forces overrun the whole of Europe in about one month."
+  },
+  {
+    "date": "1939-11-30",
+    "date_end": "1940-03-13",
+    "note": "The Winter War begins. Finland holds for a couple of weeks but ultimately loses; borders return to the normal pre-existing line rather than full annexation."
+  },
+  {
+    "date": "1940-01-15",
+    "date_end": "1941-03-27",
+    "note": "German armour reaches Africa, secures East Africa, Suez, and Egypt, and pushes toward West Africa. The Axis then grinds in Africa for roughly two years but is bogged down and largely holds around Egypt and its gains."
+  },
+  {
+    "date": "1940-05-01",
+    "date_end": "1941-03-27",
+    "note": "Axis air power wins the air war, kills enemy subs, and secures green air."
+  },
+  {
+    "date": "1940-06-01",
+    "date_end": "1941-06-30",
+    "note": "Japan enters the broader war, takes the rubber islands, and fights the United States in the Pacific."
+  },
+  {
+    "date": "1941-03-28",
+    "date_end": "1941-06-30",
+    "note": "Barbarossa begins on 28 March 1941. By June 1941 the Axis takes the key Soviet cities via the main front, the Finnish front, and an Iran front, with huge tank concentrations."
+  }
+]

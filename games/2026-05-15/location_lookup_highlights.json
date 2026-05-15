@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Warsaw",
+    "province_id": 3544,
+    "x": 782.3,
+    "y": 120.9
+  },
+  {
+    "name": "Paris",
+    "province_id": 11506,
+    "x": 710.0,
+    "y": 137.5
+  },
+  {
+    "name": "Moscow",
+    "province_id": 6380,
+    "x": 847.2,
+    "y": 101.0
+  },
+  {
+    "name": "Kiev",
+    "province_id": 525,
+    "x": 819.7,
+    "y": 131.1
+  },
+  {
+    "name": "Stalingrad",
+    "province_id": 3529,
+    "x": 874.0,
+    "y": 138.5
+  },
+  {
+    "name": "Leningrad",
+    "province_id": 3151,
+    "x": 819.0,
+    "y": 76.8
+  },
+  {
+    "name": "Tobruk",
+    "province_id": 1130,
+    "x": 793.5,
+    "y": 217.5
+  },
+  {
+    "name": "Alexandria",
+    "province_id": 4076,
+    "x": 818.4,
+    "y": 221.0
+  },
+  {
+    "name": "El-Alamein",
+    "province_id": 1071,
+    "x": 814.0,
+    "y": 223.0
+  },
+  {
+    "name": "Cairo",
+    "province_id": 7011,
+    "x": 824.0,
+    "y": 224.2
+  },
+  {
+    "name": "Suez",
+    "province_id": 4073,
+    "x": 826.6,
+    "y": 225.4
+  }
+]
