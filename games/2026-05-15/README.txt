@@ -1,1 +1,0 @@
-Drop this folder into the GitHub Pages repo under games/ and keep the games.json entry in sync.
