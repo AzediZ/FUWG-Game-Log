@@ -1,0 +1,236 @@
+{
+  "width": 1408,
+  "height": 512,
+  "source": "v5_binary_state_parser_controller",
+  "renderMode": "fullFrames",
+  "snapshotCount": 21,
+  "startDate": "1936.3.7.14",
+  "endDate": "1936.7.25.14",
+  "snapshots": [
+    {
+      "index": 1,
+      "game_date": "1936.3.7.14",
+      "display_date": "07 Mar 1936",
+      "frame": "frames/frame_000.png",
+      "state_count": 1038
+    },
+    {
+      "index": 2,
+      "game_date": "1936.3.14.14",
+      "display_date": "14 Mar 1936",
+      "frame": "frames/frame_001.png",
+      "state_count": 1038
+    },
+    {
+      "index": 3,
+      "game_date": "1936.3.21.14",
+      "display_date": "21 Mar 1936",
+      "frame": "frames/frame_002.png",
+      "state_count": 1038
+    },
+    {
+      "index": 4,
+      "game_date": "1936.3.28.14",
+      "display_date": "28 Mar 1936",
+      "frame": "frames/frame_003.png",
+      "state_count": 1038
+    },
+    {
+      "index": 5,
+      "game_date": "1936.4.4.14",
+      "display_date": "04 Apr 1936",
+      "frame": "frames/frame_004.png",
+      "state_count": 1038
+    },
+    {
+      "index": 6,
+      "game_date": "1936.4.11.14",
+      "display_date": "11 Apr 1936",
+      "frame": "frames/frame_005.png",
+      "state_count": 1038
+    },
+    {
+      "index": 7,
+      "game_date": "1936.4.18.14",
+      "display_date": "18 Apr 1936",
+      "frame": "frames/frame_006.png",
+      "state_count": 1038
+    },
+    {
+      "index": 8,
+      "game_date": "1936.4.25.14",
+      "display_date": "25 Apr 1936",
+      "frame": "frames/frame_007.png",
+      "state_count": 1038
+    },
+    {
+      "index": 9,
+      "game_date": "1936.5.2.14",
+      "display_date": "02 May 1936",
+      "frame": "frames/frame_008.png",
+      "state_count": 1038
+    },
+    {
+      "index": 10,
+      "game_date": "1936.5.9.14",
+      "display_date": "09 May 1936",
+      "frame": "frames/frame_009.png",
+      "state_count": 1038
+    },
+    {
+      "index": 11,
+      "game_date": "1936.5.16.14",
+      "display_date": "16 May 1936",
+      "frame": "frames/frame_010.png",
+      "state_count": 1038
+    },
+    {
+      "index": 12,
+      "game_date": "1936.5.23.14",
+      "display_date": "23 May 1936",
+      "frame": "frames/frame_011.png",
+      "state_count": 1038
+    },
+    {
+      "index": 13,
+      "game_date": "1936.5.30.14",
+      "display_date": "30 May 1936",
+      "frame": "frames/frame_012.png",
+      "state_count": 1038
+    },
+    {
+      "index": 14,
+      "game_date": "1936.6.6.14",
+      "display_date": "06 Jun 1936",
+      "frame": "frames/frame_013.png",
+      "state_count": 1038
+    },
+    {
+      "index": 15,
+      "game_date": "1936.6.13.14",
+      "display_date": "13 Jun 1936",
+      "frame": "frames/frame_014.png",
+      "state_count": 1038
+    },
+    {
+      "index": 16,
+      "game_date": "1936.6.20.14",
+      "display_date": "20 Jun 1936",
+      "frame": "frames/frame_015.png",
+      "state_count": 1038
+    },
+    {
+      "index": 17,
+      "game_date": "1936.6.27.14",
+      "display_date": "27 Jun 1936",
+      "frame": "frames/frame_016.png",
+      "state_count": 1038
+    },
+    {
+      "index": 18,
+      "game_date": "1936.7.4.14",
+      "display_date": "04 Jul 1936",
+      "frame": "frames/frame_017.png",
+      "state_count": 1038
+    },
+    {
+      "index": 19,
+      "game_date": "1936.7.11.14",
+      "display_date": "11 Jul 1936",
+      "frame": "frames/frame_018.png",
+      "state_count": 1038
+    },
+    {
+      "index": 20,
+      "game_date": "1936.7.18.14",
+      "display_date": "18 Jul 1936",
+      "frame": "frames/frame_019.png",
+      "state_count": 1038
+    },
+    {
+      "index": 21,
+      "game_date": "1936.7.25.14",
+      "display_date": "25 Jul 1936",
+      "frame": "frames/frame_020.png",
+      "state_count": 1038
+    }
+  ],
+  "legend": {
+    "allies": "#5a86cd",
+    "axis": "#2b2b2d",
+    "comintern": "#bf3e3e",
+    "geacps": "#846c3f",
+    "neutral": "#7a8088",
+    "unknown": "#9aa0a6"
+  },
+  "factionMap": {
+    "ALB": "axis",
+    "AST": "allies",
+    "AUS": "axis",
+    "BEL": "allies",
+    "BUL": "axis",
+    "CAN": "allies",
+    "CHI": "neutral",
+    "CZE": "axis",
+    "EFR": "neutral",
+    "ENG": "allies",
+    "ETH": "axis",
+    "FIN": "axis",
+    "FRA": "allies",
+    "GER": "axis",
+    "GRE": "allies",
+    "HOL": "allies",
+    "HUN": "axis",
+    "INS": "allies",
+    "IRE": "allies",
+    "ITA": "axis",
+    "JAP": "geacps",
+    "MAN": "geacps",
+    "MEN": "geacps",
+    "SIA": "geacps",
+    "LIT": "comintern",
+    "LAT": "comintern",
+    "EST": "comintern",
+    "MON": "comintern",
+    "TAN": "comintern",
+    "NUL": "neutral",
+    "NZL": "allies",
+    "POL": "allies",
+    "RAJ": "allies",
+    "ROM": "axis",
+    "SAF": "allies",
+    "SAU": "allies",
+    "SOV": "comintern",
+    "SPR": "axis",
+    "SWE": "axis",
+    "TUR": "comintern",
+    "USA": "allies",
+    "VEN": "axis",
+    "YUG": "allies"
+  },
+  "missingStateCountPerSnapshot": [
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "missingStatesNote": "v5 parse reads 1038 states across FUWG ID range 1-1046; missing states are tiny island/overseas states from uploaded sample.",
+  "unknownTags": []
+}

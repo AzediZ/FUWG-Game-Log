@@ -1,10 +1,8 @@
 [
   {
-    "date": "2026-05-15",
-    "title": "FUWG Parsed Save Run - 15 May 2026",
-    "description": "Parsed-data animation using controller-based state colouring and the explicit faction map.",
-    "path": "games/2026-05-15-full-run-controller-v2/",
-    "mod": "FUWG",
-    "status": "Published"
+    "id": "2026-05-16-v5-parsed-controller",
+    "title": "HOI4 FUWG v5 Parsed Controller Animation",
+    "path": "games/2026-05-16-v5-parsed-controller/index.html",
+    "snapshots": 21
   }
 ]

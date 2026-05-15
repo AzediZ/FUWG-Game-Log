@@ -1,6 +1,1 @@
-# HOI4 Parsed Controller Repo v2
-
-This repo is built around parsed saves only.
-
-## Render rule
-For every frame and every parsed state: read the controller tag, map that tag to a faction, then colour the state accordingly.
+HOI4 FUWG v5 parsed-save animation package. Open games/2026-05-16-v5-parsed-controller/index.html.
