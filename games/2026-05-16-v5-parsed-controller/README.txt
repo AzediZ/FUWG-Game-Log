@@ -1,1 +1,1 @@
-Generated from v5 parsed HOI4 save snapshots. Uses controller tags, not owner, and FUWG 1046-state metadata. No narrative/manual overrides.
+FUWG parsed-save renderer v5, controller-based, borderless state fill. Drop this folder into games/ and update games/games.json.

@@ -1,8 +1,10 @@
 [
   {
-    "id": "2026-05-16-v5-parsed-controller",
+    "date": "2026-05-16",
     "title": "HOI4 FUWG v5 Parsed Controller Animation",
+    "description": "Parsed-save animation using controller-based state colouring with borderless state fill.",
     "path": "games/2026-05-16-v5-parsed-controller/index.html",
-    "snapshots": 21
+    "mod": "FUWG",
+    "status": "Published"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "width": 1408,
   "height": 512,
-  "source": "v5_binary_state_parser_controller",
+  "source": "v5_binary_state_parser_controller_noborders",
   "renderMode": "fullFrames",
   "snapshotCount": 21,
   "startDate": "1936.3.7.14",
@@ -231,6 +231,6 @@
     8,
     8
   ],
-  "missingStatesNote": "v5 parse reads 1038 states across FUWG ID range 1-1046; missing states are tiny island/overseas states from uploaded sample.",
+  "missingStatesNote": "Built from v5 parse output with borderless state fill using FUWG state files.",
   "unknownTags": []
 }

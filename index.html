@@ -1,1 +1,56 @@
-<meta http-equiv="refresh" content="0; url=games/2026-05-16-v5-parsed-controller/index.html">
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>HOI4 Parsed Save Archive</title><link rel="stylesheet" href="styles.css" /></head><body>
+<header class="hero"><div class="shell"><div class="eyebrow">HOI4 Parsed Game Log Archive</div><h1>Animated campaign recaps by game date.</h1><p class="lead">This repo uses parsed HOI4 save data only. Every frame reads every parsed state controller and colours the state by faction, now with borderless state fill for a cleaner map.</p><div class="actions"><a class="btn primary" href="#games">View games</a> <a class="btn" href="games/2026-05-16-v5-parsed-controller/index.html">Open latest sample</a></div></div></header>
+<main class="section" id="games"><div class="shell"><div class="section-head"><div><h2>Available game logs</h2><div class="muted">Loaded from <code>games/games.json</code></div></div></div><div id="gameGrid" class="grid"></div><section class="howto"><h2>Renderer rules</h2><p class="muted">For each frame, for each parsed state: read the controller tag, map that tag to a faction, and colour the state accordingly. No narrative/manual overrides.</p><pre id="mappingBox"></pre></section></div></main>
+<footer class="footer"><div class="shell">Static GitHub Pages site · parsed save data renderer · borderless state fill.</div></footer>
+<script>
+const factionMap = {
+  "ALB": "axis",
+  "AST": "allies",
+  "AUS": "axis",
+  "BEL": "allies",
+  "BUL": "axis",
+  "CAN": "allies",
+  "CHI": "neutral",
+  "CZE": "axis",
+  "EFR": "neutral",
+  "ENG": "allies",
+  "ETH": "axis",
+  "FIN": "axis",
+  "FRA": "allies",
+  "GER": "axis",
+  "GRE": "allies",
+  "HOL": "allies",
+  "HUN": "axis",
+  "INS": "allies",
+  "IRE": "allies",
+  "ITA": "axis",
+  "JAP": "geacps",
+  "MAN": "geacps",
+  "MEN": "geacps",
+  "SIA": "geacps",
+  "LIT": "comintern",
+  "LAT": "comintern",
+  "EST": "comintern",
+  "MON": "comintern",
+  "TAN": "comintern",
+  "NUL": "neutral",
+  "NZL": "allies",
+  "POL": "allies",
+  "RAJ": "allies",
+  "ROM": "axis",
+  "SAF": "allies",
+  "SAU": "allies",
+  "SOV": "comintern",
+  "SPR": "axis",
+  "SWE": "axis",
+  "TUR": "comintern",
+  "USA": "allies",
+  "VEN": "axis",
+  "YUG": "allies"
+};
+document.getElementById('mappingBox').textContent = JSON.stringify(factionMap, null, 2);
+async function loadGames(){const grid=document.getElementById('gameGrid');try{const res=await fetch('games/games.json',{cache:'no-store'});if(!res.ok) throw new Error('Could not load games/games.json');const games=await res.json();if(!games.length){grid.innerHTML='<div class="empty">No game logs have been added yet.</div>';return;}games.sort((a,b)=>String(b.date).localeCompare(String(a.date)));grid.innerHTML=games.map(game=>`<article class="card"><h3>${escapeHtml(game.title || game.date)}</h3><p>${escapeHtml(game.description || 'Animated game log recap.')}</p><div class="meta"><span class="pill">${escapeHtml(game.date || 'Unknown date')}</span><span class="pill">${escapeHtml(game.mod || 'HOI4')}</span><span class="pill">${escapeHtml(game.status || 'Available')}</span></div><a class="btn primary" href="${encodeURI(game.path)}">Watch animation</a></article>`).join('');}catch(err){grid.innerHTML=`<div class="empty">${escapeHtml(err.message)}. If opening locally, use a small local server or upload to GitHub Pages.</div>`;}}
+function escapeHtml(value){return String(value ?? '').replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+loadGames();
+</script></body></html>
