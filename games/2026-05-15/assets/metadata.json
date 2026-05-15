@@ -34,67 +34,118 @@
   "fronts": [
     {
       "id": "china",
-      "title": "Japan grinds through China",
-      "rank": "rank_china.png",
-      "start": "1937-07-01",
-      "end": "1937-11-30",
-      "colour": "axis",
       "overlayPrefix": "overlays/china_",
-      "stages": 64
+      "stages": 64,
+      "segments": [
+        [
+          "1937-07-01",
+          "1937-11-30",
+          0,
+          64
+        ]
+      ]
     },
     {
       "id": "poland",
-      "title": "WW2 begins on 1 January 1939; the Axis smashes into Europe",
-      "rank": "rank_poland.png",
-      "start": "1939-01-01",
-      "end": "1939-01-15",
-      "colour": "axis",
       "overlayPrefix": "overlays/poland_",
-      "stages": 64
+      "stages": 64,
+      "segments": [
+        [
+          "1939-01-01",
+          "1939-01-15",
+          0,
+          64
+        ]
+      ]
     },
     {
       "id": "west_europe",
-      "title": "The rest of Europe collapses within the month",
-      "rank": "rank_west_europe.png",
-      "start": "1939-01-10",
-      "end": "1939-01-31",
-      "colour": "axis",
       "overlayPrefix": "overlays/west_europe_",
-      "stages": 64
+      "stages": 64,
+      "segments": [
+        [
+          "1939-01-10",
+          "1939-01-31",
+          0,
+          64
+        ]
+      ]
+    },
+    {
+      "id": "finland",
+      "overlayPrefix": "overlays/finland_",
+      "stages": 64,
+      "segments": [
+        [
+          "1939-11-30",
+          "1939-12-20",
+          0,
+          24
+        ],
+        [
+          "1939-12-20",
+          "1940-03-13",
+          24,
+          0
+        ]
+      ]
     },
     {
       "id": "north_africa",
-      "title": "German armour secures Suez and Egypt, then grinds through Africa",
-      "rank": "rank_north_africa.png",
-      "start": "1940-01-15",
-      "end": "1941-03-27",
-      "colour": "axis",
       "overlayPrefix": "overlays/north_africa_",
       "stages": 64,
-      "maxStage": 40
+      "segments": [
+        [
+          "1939-02-01",
+          "1939-09-30",
+          0,
+          40
+        ],
+        [
+          "1939-10-01",
+          "1940-03-31",
+          40,
+          56
+        ],
+        [
+          "1940-04-01",
+          "1941-02-01",
+          56,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "pacific_india",
+      "overlayPrefix": "overlays/pacific_india_",
+      "stages": 64,
+      "segments": [
+        [
+          "1941-01-10",
+          "1941-02-20",
+          0,
+          32
+        ],
+        [
+          "1941-02-20",
+          "1941-06-30",
+          32,
+          64
+        ]
+      ]
     },
     {
       "id": "soviet_union",
-      "title": "Barbarossa launched 28 March 1941; key Soviet cities fall by June",
-      "rank": "rank_soviet_union.png",
-      "start": "1941-03-28",
-      "end": "1941-06-30",
-      "colour": "axis",
       "overlayPrefix": "overlays/soviet_union_",
-      "stages": 64
+      "stages": 64,
+      "segments": [
+        [
+          "1941-03-28",
+          "1941-06-30",
+          0,
+          32
+        ]
+      ]
     }
-  ],
-  "rules": {
-    "protectedVolunteerOnlyCountries": [
-      "Saudi Arabia",
-      "Portugal",
-      "Spain",
-      "Argentina",
-      "Venezuela",
-      "Sweden"
-    ],
-    "barbarossaDefault": "Stop around the Moscow, Stalingrad, and Leningrad line unless the log explicitly says deeper conquest.",
-    "finlandWinterWar": "Finland loses the Winter War but returns to the normal border rather than being annexed.",
-    "africaDefault": "Axis gains in Africa should not flip protected volunteer-only neutral countries."
-  }
+  ]
 }
