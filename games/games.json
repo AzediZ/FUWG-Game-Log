@@ -2,9 +2,9 @@
   {
     "date": "2026-05-15",
     "title": "FUWG Parsed Save Run - 15 May 2026",
-    "description": "Parsed-data animation generated from autosave snapshots, using state owner data for faction colours.",
-    "path": "games/2026-05-15-full-run-parsed-v2/",
+    "description": "Parsed save animation using state owner data for faction colours, from 03 Jan 1936 to 27 Jan 1940 (209 snapshots).",
+    "path": "games/2026-05-15-full-run/",
     "mod": "FUWG",
-    "status": "Published"
+    "status": "Generated"
   }
 ]
