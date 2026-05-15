@@ -4,33 +4,6 @@
   "start": "1936-01-01",
   "end": "1941-06-30",
   "gameDate": "15/05/2026",
-  "colours": {
-    "axis": [
-      43,
-      43,
-      45
-    ],
-    "allies": [
-      77,
-      122,
-      190
-    ],
-    "comintern": [
-      182,
-      58,
-      58
-    ],
-    "neutral": [
-      104,
-      110,
-      118
-    ],
-    "sea": [
-      28,
-      56,
-      108
-    ]
-  },
   "fronts": [
     {
       "id": "china",
@@ -78,12 +51,12 @@
       "segments": [
         [
           "1939-11-30",
-          "1939-12-20",
+          "1939-12-18",
           0,
           24
         ],
         [
-          "1939-12-20",
+          "1939-12-18",
           "1940-03-13",
           24,
           0
@@ -91,43 +64,43 @@
       ]
     },
     {
-      "id": "north_africa",
-      "overlayPrefix": "overlays/north_africa_",
+      "id": "africa_campaign",
+      "overlayPrefix": "overlays/africa_campaign_",
       "stages": 64,
       "segments": [
         [
           "1939-02-01",
-          "1939-09-30",
+          "1939-09-15",
           0,
-          40
+          24
         ],
         [
           "1939-10-01",
-          "1940-03-31",
-          40,
-          56
+          "1940-06-01",
+          24,
+          48
         ],
         [
-          "1940-04-01",
+          "1940-06-01",
           "1941-02-01",
-          56,
-          18
+          48,
+          64
         ]
       ]
     },
     {
-      "id": "pacific_india",
-      "overlayPrefix": "overlays/pacific_india_",
+      "id": "pacific_campaign",
+      "overlayPrefix": "overlays/pacific_campaign_",
       "stages": 64,
       "segments": [
         [
           "1941-01-10",
-          "1941-02-20",
+          "1941-03-01",
           0,
           32
         ],
         [
-          "1941-02-20",
+          "1941-03-01",
           "1941-06-30",
           32,
           64

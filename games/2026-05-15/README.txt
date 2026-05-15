@@ -1,1 +1,1 @@
-Drop this 2026-05-15 folder into games/ in the repo.
+Drop this folder into the GitHub Pages repo under games/ and keep the games.json entry in sync.
