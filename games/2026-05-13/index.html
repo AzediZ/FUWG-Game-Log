@@ -1,0 +1,86 @@
+<!doctype html><html><head><meta charset="utf-8"><title>FUWG HOI4 Day-by-Day Overlay Sample</title><style>
+:root{color-scheme:dark}body{margin:0;background:#05070c;color:#fff;font-family:Inter,Arial,sans-serif;display:flex;justify-content:center}.wrap{width:min(1500px,96vw);padding:18px 0}h1{font-size:24px;margin:0 0 8px}p{color:#b7bcc8;margin:0 0 12px;line-height:1.35}.viewer{position:relative;border:1px solid #2b3446;border-radius:18px;overflow:hidden;background:#04060a;box-shadow:0 18px 60px rgba(0,0,0,.55)}canvas{width:100%;display:block}.status{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#04060a;color:#d1d5db;font-weight:800;text-align:center;padding:20px}.controls{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}button{border:0;border-radius:12px;padding:12px 16px;font-weight:800;cursor:pointer;background:#f3f4f6;color:#111}input[type=range]{flex:1;min-width:260px}.badge{background:#141820;border:1px solid #2b3446;padding:10px 12px;border-radius:12px;color:#e5e7eb;min-width:360px}.small{font-size:13px;color:#9ca3af;margin-top:8px}code{color:#d1d5db}
+</style></head><body><div class="wrap"><h1>FUWG / HOI4 day-by-day sample — runnable rules version</h1><p>This runnable version applies the protected volunteer-only country rule, restores Finland to its starting border after the Winter War, and stops Barbarossa around the Moscow / Stalingrad / Leningrad line instead of painting the whole Soviet Union. The timeline remains day-by-day.</p><div class="viewer"><canvas id="map" width="1408" height="512"></canvas><div id="status" class="status">Loading map assets…</div></div><div class="controls"><button id="play">Play</button><button id="back">-1d</button><button id="next">+1d</button><button class="speed" data-step="1">1d</button><button class="speed" data-step="3">3d</button><button class="speed" data-step="7">7d</button><button class="speed" data-step="30">30d</button><input id="slider" type="range" min="0" value="0"><span class="badge" id="label"></span><button id="slow">Slow</button><button id="fast">Fast</button></div><div class="small">Included helper files: <code>assets/metadata.json</code>, <code>parsed_log_events.json</code>, <code>location_lookup_highlights.json</code>, and <code>location_lookup_victory_points.json</code>.</div></div>
+<script>
+const metadata={"width": 1408, "height": 512, "start": "1936-01-01", "end": "1942-11-01", "gameDate": "13/05/2026", "colours": {"axis": [43, 43, 45], "allies": [77, 122, 190], "comintern": [182, 58, 58], "neutral": [104, 110, 118], "sea": [28, 56, 108]}, "fronts": [{"id": "china", "title": "Japan expands through China", "rank": "rank_china.png", "start": "1937-07-01", "end": "1937-11-30", "colour": "axis", "overlayPrefix": "overlays/china_", "stages": 64}, {"id": "poland", "title": "Poland collapses under the Axis assault", "rank": "rank_poland.png", "start": "1939-09-01", "end": "1939-10-31", "colour": "axis", "overlayPrefix": "overlays/poland_", "stages": 64}, {"id": "west_europe", "title": "Western Europe falls", "rank": "rank_west_europe.png", "start": "1939-11-01", "end": "1939-12-31", "colour": "axis", "overlayPrefix": "overlays/west_europe_", "stages": 64}, {"id": "finland", "title": "Winter War ends; Finland border returns to normal", "rank": "rank_finland.png", "start": "1939-11-15", "end": "1940-01-31", "colour": "comintern", "overlayPrefix": "overlays/finland_", "stages": 64}, {"id": "north_africa", "title": "North Africa turns Axis; protected volunteer-only countries stay out", "rank": "rank_north_africa.png", "start": "1939-11-15", "end": "1940-03-31", "colour": "axis", "overlayPrefix": "overlays/north_africa_", "stages": 64}, {"id": "north_america", "title": "Axis campaign in North America", "rank": "rank_north_america.png", "start": "1940-02-01", "end": "1940-12-31", "colour": "axis", "overlayPrefix": "overlays/north_america_", "stages": 64}, {"id": "soviet_union", "title": "Barbarossa reaches the Moscow\u2013Stalingrad\u2013Leningrad line", "rank": "rank_soviet_union.png", "start": "1940-06-01", "end": "1942-11-01", "colour": "axis", "overlayPrefix": "overlays/soviet_union_", "stages": 64}], "rules": {"protectedVolunteerOnlyCountries": ["Saudi Arabia", "Portugal", "Spain", "Argentina", "Venezuela", "Sweden"], "barbarossaDefault": "Do not paint the whole Soviet Union. Default collapse is around Moscow, Stalingrad, and Leningrad unless the log says deeper conquest.", "finlandWinterWar": "Finland is not annexed by the USSR; borders return to starting lines."}};
+const canvas=document.getElementById('map');
+const ctx=canvas.getContext('2d', { alpha:false });
+const buffer=document.createElement('canvas');
+const bctx=buffer.getContext('2d', { alpha:false });
+const playBtn=document.getElementById('play');
+const slider=document.getElementById('slider');
+const label=document.getElementById('label');
+const statusBox=document.getElementById('status');
+let baseImg=null;
+let overlayCache={};
+let currentDay=0, playing=false, dayStep=1, delay=50, startDay, endDay, timer=null;
+let isReady=false;
+function parseDate(s){const [y,m,d]=s.split('-').map(Number);return Date.UTC(y,m-1,d)/86400000;}
+function formatDay(idx){return new Date(idx*86400000).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});}
+function clamp(n,a,b){return Math.max(a,Math.min(b,n));}
+function eventProgress(f,day){const a=parseDate(f.start), b=parseDate(f.end);if(day<a)return 0;if(day>=b)return 1;return (day-a)/Math.max(1,b-a);}
+function captionFor(day){const active=metadata.fronts.filter(f=>day>=parseDate(f.start)&&day<=parseDate(f.end)); if(active.length)return active[active.length-1].title; if(day<parseDate('1937-07-01'))return 'Build-up phase · factions arm and prepare for war'; if(day<parseDate('1939-09-01'))return 'Uneasy peace · Europe drifts toward general war'; if(day<parseDate('1940-06-01'))return 'Early-war campaigns unfold across Europe and Africa'; if(day<parseDate('1942-11-01'))return 'Barbarossa grinds toward the Soviet victory-point line'; return 'November 1942 · Soviet collapse around the VP line';}
+function roundRect(c,x,y,w,h,r){c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);c.arcTo(x+w,y+h,x,y+h,r);c.arcTo(x,y+h,x,y,r);c.arcTo(x,y,x+w,y,r);c.closePath();}
+function drawUI(c,day){c.save();c.font='700 16px Arial';function panel(x,y,w,h){c.fillStyle='rgba(8,10,14,.84)';c.strokeStyle='rgba(255,255,255,.18)';c.lineWidth=1;roundRect(c,x,y,w,h,16);c.fill();c.stroke();}
+  // wider date box so the full date sits inside it
+  panel(18,18,198,64);
+  c.fillStyle='rgb(195,195,195)';c.fillText('CURRENT DATE',30,43);
+  c.font='900 23px Arial';c.fillStyle='white';c.fillText(formatDay(day),30,67);
+  panel(1188,18,200,54);c.font='700 16px Arial';c.fillStyle='rgb(195,195,195)';c.textAlign='center';c.fillText('GAME DATE',1288,39);c.font='900 18px Arial';c.fillStyle='white';c.fillText(metadata.gameDate,1288,61);c.textAlign='left';
+  c.fillStyle='rgba(16,19,26,.68)';c.strokeStyle='rgba(255,255,255,.16)';roundRect(c,245,18,922,38,18);c.fill();c.stroke();c.font='900 19px Arial';c.textAlign='center';c.fillStyle='rgba(238,238,238,.95)';c.fillText(captionFor(day),706,43);c.textAlign='left';
+  c.fillStyle='rgba(8,10,14,.7)';c.strokeStyle='rgba(255,255,255,.12)';roundRect(c,18,470,585,32,13);c.fill();c.stroke();c.font='900 14px Arial';c.fillStyle='rgba(220,220,220,.95)';c.fillText('Day-by-day sample · smooth preloaded overlay renderer · location parser included',30,491);c.restore();}
+function loadImage(src){return new Promise((resolve,reject)=>{const im=new Image();im.onload=()=>resolve(im);im.onerror=()=>reject(new Error('Could not load '+src));im.src=src;});}
+function overlayPath(f,stage){return './assets/'+f.overlayPrefix+String(stage).padStart(3,'0')+'.png';}
+async function preloadAll(){
+  statusBox.textContent='Loading base map…';
+  baseImg=await loadImage('./assets/base_map.png');
+  let total=metadata.fronts.reduce((sum,f)=>sum+f.stages+1,0), done=0;
+  for(const f of metadata.fronts){
+    overlayCache[f.id]=[];
+    for(let stage=0; stage<=f.stages; stage++){
+      overlayCache[f.id][stage]=await loadImage(overlayPath(f,stage));
+      done++;
+      if(done%20===0) statusBox.textContent=`Preloading map overlays… ${done}/${total}`;
+    }
+  }
+}
+function renderSync(){
+  if(!isReady)return;
+  bctx.clearRect(0,0,metadata.width,metadata.height);
+  bctx.drawImage(baseImg,0,0);
+  for(const f of metadata.fronts){
+    const p=eventProgress(f,currentDay);
+    if(p<=0)continue;
+    const stage=Math.max(0,Math.min(f.stages,Math.round(p*f.stages)));
+    if(stage<=0)continue;
+    const img=overlayCache[f.id][stage];
+    if(img)bctx.drawImage(img,0,0);
+  }
+  drawUI(bctx,currentDay);
+  ctx.drawImage(buffer,0,0);
+  slider.value=currentDay-startDay;
+  label.textContent=formatDay(currentDay)+' · '+captionFor(currentDay);
+}
+function tick(){
+  if(!playing)return;
+  currentDay=clamp(currentDay+dayStep,startDay,endDay);
+  renderSync();
+  if(currentDay>=endDay){playing=false;playBtn.textContent='Play';return;}
+  timer=setTimeout(tick,delay);
+}
+async function init(){
+  try{
+    startDay=parseDate(metadata.start);endDay=parseDate(metadata.end);currentDay=startDay;slider.max=endDay-startDay;canvas.width=metadata.width;canvas.height=metadata.height;buffer.width=metadata.width;buffer.height=metadata.height;
+    await preloadAll();
+    statusBox.style.display='none';isReady=true;renderSync();
+  }catch(err){console.error(err);statusBox.innerHTML='Map failed to load.<br><br>'+err.message+'<br><br>Make sure the zip is extracted before opening index.html.';}
+}
+playBtn.onclick=()=>{if(!isReady)return;playing=!playing;playBtn.textContent=playing?'Pause':'Play';if(timer)clearTimeout(timer);if(playing)tick();};
+document.getElementById('back').onclick=()=>{currentDay=clamp(currentDay-dayStep,startDay,endDay);renderSync();};
+document.getElementById('next').onclick=()=>{currentDay=clamp(currentDay+dayStep,startDay,endDay);renderSync();};
+document.querySelectorAll('.speed').forEach(b=>b.onclick=()=>{dayStep=Number(b.dataset.step);});
+document.getElementById('slow').onclick=()=>delay=120;
+document.getElementById('fast').onclick=()=>delay=20;
+slider.oninput=e=>{currentDay=startDay+Number(e.target.value);renderSync();};
+init();
+</script></body></html>
