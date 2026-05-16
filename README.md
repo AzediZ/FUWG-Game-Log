@@ -1,3 +1,10 @@
-# HOI4 FUWG v6 Long - Fixed Image Loader
+# HOI4 Parsed Save Archive
 
-This version avoids the canvas/pixel-diff loader that was sticking on Loading map assets. It uses a direct image sequence viewer with parsed frames as source of truth.
+Long-form parsed-save animation repo.
+
+## This iteration
+- parsed save frames as source of truth
+- smoother image-sequence playback
+- cleaner UI
+- top-right game date window
+- GitHub Pages-ready repo structure
