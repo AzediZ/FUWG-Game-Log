@@ -1,10 +1,3 @@
 # HOI4 Parsed Save Archive
 
-Long-form parsed-save animation repo.
-
-## This iteration
-- parsed save frames as source of truth
-- smoother image-sequence playback
-- cleaner UI
-- top-right game date window
-- GitHub Pages-ready repo structure
+No-blink long-form parsed-save animation repo. Main page has a built-in games fallback so it works locally and on GitHub Pages.

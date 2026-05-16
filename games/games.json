@@ -2,7 +2,7 @@
   {
     "date": "2026-05-16",
     "title": "HOI4 FUWG Long Frontline",
-    "description": "Parsed-save animation with smoother fast playback, cleaner UI, and full GitHub Pages repo structure.",
+    "description": "Parsed-save animation with smoother playback and no frame blinking.",
     "path": "games/2026-05-16-v6-client-transition-long/index.html",
     "mod": "FUWG",
     "status": "Published"
