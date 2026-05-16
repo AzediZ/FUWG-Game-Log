@@ -1,9 +1,10 @@
-# HOI4 Parsed Save Archive
+# HOI4 FUWG Long Frontline
 
-Video-based no-blink long-form parsed-save animation repo.
+Parsed-save animation repo.
 
-## This iteration
-- MP4 playback instead of frame swapping
-- no image/canvas blinking
-- main index has static available-games fallback
-- top-right game date window
+This version uses a video generated from pre-rendered transition frames, so it keeps the smooth movement from the small test while avoiding image/canvas blinking.
+
+## Playback
+- Slow: 0.55x
+- Normal: 1.00x
+- Fast: 1.45x
