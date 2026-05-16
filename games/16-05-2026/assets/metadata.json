@@ -30,7 +30,7 @@
     "CUB": "comintern",
     "CZE": "axis",
     "DEN": "axis",
-    "EFR": "neutral",
+    "EFR": "axis",
     "ENG": "allies",
     "ETH": "axis",
     "FIN": "axis",
@@ -155,5 +155,6 @@
       "truncated": true,
       "totalFrames": 1339
     }
-  ]
+  ],
+  "finalColourFixV3": "Static targeted overlay: FIN Axis, MON Comintern, NEP Allies, ARG Axis, parsed EFR/Vichy Axis."
 }
