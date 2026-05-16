@@ -1,10 +1,10 @@
 [
   {
     "date": "2026-05-16",
-    "title": "HOI4 FUWG v6 Long Client Transition Experimental",
-    "description": "Long-game parsed-save animation with browser-side experimental transition effect.",
+    "title": "HOI4 FUWG v6 Long - Fixed Image Loader",
+    "description": "Long parsed-save animation using a robust direct image loader.",
     "path": "games/2026-05-16-v6-client-transition-long/index.html",
     "mod": "FUWG",
-    "status": "Experimental"
+    "status": "Fixed loader"
   }
 ]

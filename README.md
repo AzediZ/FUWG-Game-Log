@@ -1,7 +1,3 @@
-# HOI4 FUWG v6 Long Client Transition Experimental
+# HOI4 FUWG v6 Long - Fixed Image Loader
 
-Parsed snapshot PNGs are source of truth. Browser-side transition effect is visual only.
-
-
-## Fixed loader build
-This version fixes a JavaScript syntax error that could leave the viewer stuck on Loading map assets.
+This version avoids the canvas/pixel-diff loader that was sticking on Loading map assets. It uses a direct image sequence viewer with parsed frames as source of truth.
