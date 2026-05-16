@@ -1,0 +1,3297 @@
+{
+  "width": 1408,
+  "height": 512,
+  "source": "v7_transition_video",
+  "renderMode": "preRenderedTransitionVideo",
+  "video": "assets/frontline_transition.mp4",
+  "fps": "3/2",
+  "frameCount": 461,
+  "snapshotCount": 217,
+  "transitionSteps": 4,
+  "transitionIntervals": 61,
+  "startDate": "1936.1.3.14",
+  "endDate": "1940.3.24.14",
+  "timeline": [
+    {
+      "frame": 0,
+      "kind": "snapshot",
+      "snapshotIndex": 0,
+      "display_date": "03 Jan 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 1,
+      "kind": "snapshot",
+      "snapshotIndex": 1,
+      "display_date": "10 Jan 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 2,
+      "kind": "snapshot",
+      "snapshotIndex": 2,
+      "display_date": "17 Jan 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 3,
+      "kind": "snapshot",
+      "snapshotIndex": 3,
+      "display_date": "24 Jan 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 4,
+      "kind": "snapshot",
+      "snapshotIndex": 4,
+      "display_date": "31 Jan 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 5,
+      "kind": "snapshot",
+      "snapshotIndex": 5,
+      "display_date": "07 Feb 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 6,
+      "kind": "snapshot",
+      "snapshotIndex": 6,
+      "display_date": "14 Feb 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 7,
+      "kind": "snapshot",
+      "snapshotIndex": 7,
+      "display_date": "21 Feb 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 8,
+      "kind": "snapshot",
+      "snapshotIndex": 8,
+      "display_date": "28 Feb 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 9,
+      "kind": "snapshot",
+      "snapshotIndex": 9,
+      "display_date": "07 Mar 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 10,
+      "kind": "snapshot",
+      "snapshotIndex": 10,
+      "display_date": "14 Mar 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 11,
+      "kind": "snapshot",
+      "snapshotIndex": 11,
+      "display_date": "21 Mar 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 12,
+      "kind": "snapshot",
+      "snapshotIndex": 12,
+      "display_date": "28 Mar 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 13,
+      "kind": "snapshot",
+      "snapshotIndex": 13,
+      "display_date": "04 Apr 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 14,
+      "kind": "snapshot",
+      "snapshotIndex": 14,
+      "display_date": "11 Apr 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 15,
+      "kind": "snapshot",
+      "snapshotIndex": 15,
+      "display_date": "18 Apr 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 16,
+      "kind": "snapshot",
+      "snapshotIndex": 16,
+      "display_date": "25 Apr 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 17,
+      "kind": "snapshot",
+      "snapshotIndex": 17,
+      "display_date": "02 May 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 18,
+      "kind": "snapshot",
+      "snapshotIndex": 18,
+      "display_date": "09 May 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 19,
+      "kind": "snapshot",
+      "snapshotIndex": 19,
+      "display_date": "16 May 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 20,
+      "kind": "snapshot",
+      "snapshotIndex": 20,
+      "display_date": "23 May 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 21,
+      "kind": "snapshot",
+      "snapshotIndex": 21,
+      "display_date": "30 May 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 22,
+      "kind": "snapshot",
+      "snapshotIndex": 22,
+      "display_date": "06 Jun 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 23,
+      "kind": "snapshot",
+      "snapshotIndex": 23,
+      "display_date": "13 Jun 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 24,
+      "kind": "snapshot",
+      "snapshotIndex": 24,
+      "display_date": "20 Jun 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 25,
+      "kind": "snapshot",
+      "snapshotIndex": 25,
+      "display_date": "27 Jun 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 26,
+      "kind": "snapshot",
+      "snapshotIndex": 26,
+      "display_date": "04 Jul 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 27,
+      "kind": "snapshot",
+      "snapshotIndex": 27,
+      "display_date": "11 Jul 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 28,
+      "kind": "snapshot",
+      "snapshotIndex": 28,
+      "display_date": "18 Jul 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 29,
+      "kind": "snapshot",
+      "snapshotIndex": 29,
+      "display_date": "25 Jul 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 30,
+      "kind": "snapshot",
+      "snapshotIndex": 30,
+      "display_date": "01 Aug 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 31,
+      "kind": "snapshot",
+      "snapshotIndex": 31,
+      "display_date": "08 Aug 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 32,
+      "kind": "snapshot",
+      "snapshotIndex": 32,
+      "display_date": "15 Aug 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 33,
+      "kind": "snapshot",
+      "snapshotIndex": 33,
+      "display_date": "22 Aug 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 34,
+      "kind": "snapshot",
+      "snapshotIndex": 34,
+      "display_date": "29 Aug 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 35,
+      "kind": "snapshot",
+      "snapshotIndex": 35,
+      "display_date": "05 Sep 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 36,
+      "kind": "snapshot",
+      "snapshotIndex": 36,
+      "display_date": "12 Sep 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 37,
+      "kind": "snapshot",
+      "snapshotIndex": 37,
+      "display_date": "19 Sep 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 38,
+      "kind": "snapshot",
+      "snapshotIndex": 38,
+      "display_date": "26 Sep 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 39,
+      "kind": "snapshot",
+      "snapshotIndex": 39,
+      "display_date": "03 Oct 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 40,
+      "kind": "snapshot",
+      "snapshotIndex": 40,
+      "display_date": "10 Oct 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 41,
+      "kind": "snapshot",
+      "snapshotIndex": 41,
+      "display_date": "17 Oct 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 42,
+      "kind": "snapshot",
+      "snapshotIndex": 42,
+      "display_date": "24 Oct 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 43,
+      "kind": "snapshot",
+      "snapshotIndex": 43,
+      "display_date": "31 Oct 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 44,
+      "kind": "snapshot",
+      "snapshotIndex": 44,
+      "display_date": "07 Nov 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 45,
+      "kind": "snapshot",
+      "snapshotIndex": 45,
+      "display_date": "14 Nov 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 46,
+      "kind": "snapshot",
+      "snapshotIndex": 46,
+      "display_date": "21 Nov 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 47,
+      "kind": "snapshot",
+      "snapshotIndex": 47,
+      "display_date": "28 Nov 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 48,
+      "kind": "snapshot",
+      "snapshotIndex": 48,
+      "display_date": "05 Dec 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 49,
+      "kind": "snapshot",
+      "snapshotIndex": 49,
+      "display_date": "12 Dec 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 50,
+      "kind": "snapshot",
+      "snapshotIndex": 50,
+      "display_date": "19 Dec 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 51,
+      "kind": "snapshot",
+      "snapshotIndex": 51,
+      "display_date": "26 Dec 1936",
+      "changedStates": 0
+    },
+    {
+      "frame": 52,
+      "kind": "snapshot",
+      "snapshotIndex": 52,
+      "display_date": "09 Jan 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 53,
+      "kind": "snapshot",
+      "snapshotIndex": 53,
+      "display_date": "16 Jan 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 54,
+      "kind": "snapshot",
+      "snapshotIndex": 54,
+      "display_date": "23 Jan 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 55,
+      "kind": "snapshot",
+      "snapshotIndex": 55,
+      "display_date": "30 Jan 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 56,
+      "kind": "snapshot",
+      "snapshotIndex": 56,
+      "display_date": "06 Feb 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 57,
+      "kind": "snapshot",
+      "snapshotIndex": 57,
+      "display_date": "13 Feb 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 58,
+      "kind": "snapshot",
+      "snapshotIndex": 58,
+      "display_date": "20 Feb 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 59,
+      "kind": "snapshot",
+      "snapshotIndex": 59,
+      "display_date": "27 Feb 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 60,
+      "kind": "snapshot",
+      "snapshotIndex": 60,
+      "display_date": "06 Mar 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 61,
+      "kind": "snapshot",
+      "snapshotIndex": 61,
+      "display_date": "13 Mar 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 62,
+      "kind": "snapshot",
+      "snapshotIndex": 62,
+      "display_date": "20 Mar 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 63,
+      "kind": "snapshot",
+      "snapshotIndex": 63,
+      "display_date": "27 Mar 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 64,
+      "kind": "snapshot",
+      "snapshotIndex": 64,
+      "display_date": "03 Apr 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 65,
+      "kind": "snapshot",
+      "snapshotIndex": 65,
+      "display_date": "10 Apr 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 66,
+      "kind": "snapshot",
+      "snapshotIndex": 66,
+      "display_date": "17 Apr 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 67,
+      "kind": "snapshot",
+      "snapshotIndex": 67,
+      "display_date": "24 Apr 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 68,
+      "kind": "snapshot",
+      "snapshotIndex": 68,
+      "display_date": "01 May 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 69,
+      "kind": "snapshot",
+      "snapshotIndex": 69,
+      "display_date": "08 May 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 70,
+      "kind": "snapshot",
+      "snapshotIndex": 70,
+      "display_date": "15 May 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 71,
+      "kind": "snapshot",
+      "snapshotIndex": 71,
+      "display_date": "22 May 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 72,
+      "kind": "snapshot",
+      "snapshotIndex": 72,
+      "display_date": "29 May 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 73,
+      "kind": "snapshot",
+      "snapshotIndex": 73,
+      "display_date": "05 Jun 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 74,
+      "kind": "snapshot",
+      "snapshotIndex": 74,
+      "display_date": "12 Jun 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 75,
+      "kind": "snapshot",
+      "snapshotIndex": 75,
+      "display_date": "19 Jun 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 76,
+      "kind": "snapshot",
+      "snapshotIndex": 76,
+      "display_date": "26 Jun 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 77,
+      "kind": "snapshot",
+      "snapshotIndex": 77,
+      "display_date": "03 Jul 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 78,
+      "kind": "snapshot",
+      "snapshotIndex": 78,
+      "display_date": "10 Jul 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 79,
+      "kind": "snapshot",
+      "snapshotIndex": 79,
+      "display_date": "17 Jul 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 80,
+      "kind": "snapshot",
+      "snapshotIndex": 80,
+      "display_date": "24 Jul 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 81,
+      "kind": "snapshot",
+      "snapshotIndex": 81,
+      "display_date": "31 Jul 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 82,
+      "kind": "snapshot",
+      "snapshotIndex": 82,
+      "display_date": "07 Aug 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 83,
+      "kind": "snapshot",
+      "snapshotIndex": 83,
+      "display_date": "14 Aug 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 84,
+      "kind": "snapshot",
+      "snapshotIndex": 84,
+      "display_date": "21 Aug 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 85,
+      "kind": "snapshot",
+      "snapshotIndex": 85,
+      "display_date": "28 Aug 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 86,
+      "kind": "snapshot",
+      "snapshotIndex": 86,
+      "display_date": "04 Sep 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 87,
+      "kind": "snapshot",
+      "snapshotIndex": 87,
+      "display_date": "11 Sep 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 88,
+      "kind": "snapshot",
+      "snapshotIndex": 88,
+      "display_date": "18 Sep 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 89,
+      "kind": "snapshot",
+      "snapshotIndex": 89,
+      "display_date": "25 Sep 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 90,
+      "kind": "snapshot",
+      "snapshotIndex": 90,
+      "display_date": "02 Oct 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 91,
+      "kind": "snapshot",
+      "snapshotIndex": 91,
+      "display_date": "09 Oct 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 92,
+      "kind": "snapshot",
+      "snapshotIndex": 92,
+      "display_date": "16 Oct 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 93,
+      "kind": "snapshot",
+      "snapshotIndex": 93,
+      "display_date": "23 Oct 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 94,
+      "kind": "snapshot",
+      "snapshotIndex": 94,
+      "display_date": "30 Oct 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 95,
+      "kind": "snapshot",
+      "snapshotIndex": 95,
+      "display_date": "06 Nov 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 96,
+      "kind": "snapshot",
+      "snapshotIndex": 96,
+      "display_date": "13 Nov 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 97,
+      "kind": "snapshot",
+      "snapshotIndex": 97,
+      "display_date": "20 Nov 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 98,
+      "kind": "snapshot",
+      "snapshotIndex": 98,
+      "display_date": "27 Nov 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 99,
+      "kind": "snapshot",
+      "snapshotIndex": 99,
+      "display_date": "04 Dec 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 100,
+      "kind": "snapshot",
+      "snapshotIndex": 100,
+      "display_date": "11 Dec 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 101,
+      "kind": "snapshot",
+      "snapshotIndex": 101,
+      "display_date": "18 Dec 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 102,
+      "kind": "snapshot",
+      "snapshotIndex": 102,
+      "display_date": "25 Dec 1937",
+      "changedStates": 0
+    },
+    {
+      "frame": 103,
+      "kind": "transition",
+      "snapshotIndex": 102,
+      "display_date": "25 Dec 1937",
+      "changedStates": 2
+    },
+    {
+      "frame": 104,
+      "kind": "transition",
+      "snapshotIndex": 102,
+      "display_date": "25 Dec 1937",
+      "changedStates": 2
+    },
+    {
+      "frame": 105,
+      "kind": "transition",
+      "snapshotIndex": 102,
+      "display_date": "25 Dec 1937",
+      "changedStates": 2
+    },
+    {
+      "frame": 106,
+      "kind": "transition",
+      "snapshotIndex": 102,
+      "display_date": "25 Dec 1937",
+      "changedStates": 2
+    },
+    {
+      "frame": 107,
+      "kind": "snapshot",
+      "snapshotIndex": 103,
+      "display_date": "08 Jan 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 108,
+      "kind": "transition",
+      "snapshotIndex": 103,
+      "display_date": "08 Jan 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 109,
+      "kind": "transition",
+      "snapshotIndex": 103,
+      "display_date": "08 Jan 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 110,
+      "kind": "transition",
+      "snapshotIndex": 103,
+      "display_date": "08 Jan 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 111,
+      "kind": "transition",
+      "snapshotIndex": 103,
+      "display_date": "08 Jan 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 112,
+      "kind": "snapshot",
+      "snapshotIndex": 104,
+      "display_date": "15 Jan 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 113,
+      "kind": "snapshot",
+      "snapshotIndex": 105,
+      "display_date": "22 Jan 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 114,
+      "kind": "transition",
+      "snapshotIndex": 105,
+      "display_date": "22 Jan 1938",
+      "changedStates": 4
+    },
+    {
+      "frame": 115,
+      "kind": "transition",
+      "snapshotIndex": 105,
+      "display_date": "22 Jan 1938",
+      "changedStates": 4
+    },
+    {
+      "frame": 116,
+      "kind": "transition",
+      "snapshotIndex": 105,
+      "display_date": "22 Jan 1938",
+      "changedStates": 4
+    },
+    {
+      "frame": 117,
+      "kind": "transition",
+      "snapshotIndex": 105,
+      "display_date": "22 Jan 1938",
+      "changedStates": 4
+    },
+    {
+      "frame": 118,
+      "kind": "snapshot",
+      "snapshotIndex": 106,
+      "display_date": "29 Jan 1938",
+      "changedStates": 4
+    },
+    {
+      "frame": 119,
+      "kind": "snapshot",
+      "snapshotIndex": 107,
+      "display_date": "05 Feb 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 120,
+      "kind": "transition",
+      "snapshotIndex": 107,
+      "display_date": "05 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 121,
+      "kind": "transition",
+      "snapshotIndex": 107,
+      "display_date": "05 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 122,
+      "kind": "transition",
+      "snapshotIndex": 107,
+      "display_date": "05 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 123,
+      "kind": "transition",
+      "snapshotIndex": 107,
+      "display_date": "05 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 124,
+      "kind": "snapshot",
+      "snapshotIndex": 108,
+      "display_date": "12 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 125,
+      "kind": "transition",
+      "snapshotIndex": 108,
+      "display_date": "12 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 126,
+      "kind": "transition",
+      "snapshotIndex": 108,
+      "display_date": "12 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 127,
+      "kind": "transition",
+      "snapshotIndex": 108,
+      "display_date": "12 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 128,
+      "kind": "transition",
+      "snapshotIndex": 108,
+      "display_date": "12 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 129,
+      "kind": "snapshot",
+      "snapshotIndex": 109,
+      "display_date": "19 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 130,
+      "kind": "snapshot",
+      "snapshotIndex": 110,
+      "display_date": "26 Feb 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 131,
+      "kind": "transition",
+      "snapshotIndex": 110,
+      "display_date": "26 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 132,
+      "kind": "transition",
+      "snapshotIndex": 110,
+      "display_date": "26 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 133,
+      "kind": "transition",
+      "snapshotIndex": 110,
+      "display_date": "26 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 134,
+      "kind": "transition",
+      "snapshotIndex": 110,
+      "display_date": "26 Feb 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 135,
+      "kind": "snapshot",
+      "snapshotIndex": 111,
+      "display_date": "05 Mar 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 136,
+      "kind": "transition",
+      "snapshotIndex": 111,
+      "display_date": "05 Mar 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 137,
+      "kind": "transition",
+      "snapshotIndex": 111,
+      "display_date": "05 Mar 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 138,
+      "kind": "transition",
+      "snapshotIndex": 111,
+      "display_date": "05 Mar 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 139,
+      "kind": "transition",
+      "snapshotIndex": 111,
+      "display_date": "05 Mar 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 140,
+      "kind": "snapshot",
+      "snapshotIndex": 112,
+      "display_date": "12 Mar 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 141,
+      "kind": "transition",
+      "snapshotIndex": 112,
+      "display_date": "12 Mar 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 142,
+      "kind": "transition",
+      "snapshotIndex": 112,
+      "display_date": "12 Mar 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 143,
+      "kind": "transition",
+      "snapshotIndex": 112,
+      "display_date": "12 Mar 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 144,
+      "kind": "transition",
+      "snapshotIndex": 112,
+      "display_date": "12 Mar 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 145,
+      "kind": "snapshot",
+      "snapshotIndex": 113,
+      "display_date": "19 Mar 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 146,
+      "kind": "transition",
+      "snapshotIndex": 113,
+      "display_date": "19 Mar 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 147,
+      "kind": "transition",
+      "snapshotIndex": 113,
+      "display_date": "19 Mar 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 148,
+      "kind": "transition",
+      "snapshotIndex": 113,
+      "display_date": "19 Mar 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 149,
+      "kind": "transition",
+      "snapshotIndex": 113,
+      "display_date": "19 Mar 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 150,
+      "kind": "snapshot",
+      "snapshotIndex": 114,
+      "display_date": "26 Mar 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 151,
+      "kind": "transition",
+      "snapshotIndex": 114,
+      "display_date": "26 Mar 1938",
+      "changedStates": 5
+    },
+    {
+      "frame": 152,
+      "kind": "transition",
+      "snapshotIndex": 114,
+      "display_date": "26 Mar 1938",
+      "changedStates": 5
+    },
+    {
+      "frame": 153,
+      "kind": "transition",
+      "snapshotIndex": 114,
+      "display_date": "26 Mar 1938",
+      "changedStates": 5
+    },
+    {
+      "frame": 154,
+      "kind": "transition",
+      "snapshotIndex": 114,
+      "display_date": "26 Mar 1938",
+      "changedStates": 5
+    },
+    {
+      "frame": 155,
+      "kind": "snapshot",
+      "snapshotIndex": 115,
+      "display_date": "02 Apr 1938",
+      "changedStates": 5
+    },
+    {
+      "frame": 156,
+      "kind": "transition",
+      "snapshotIndex": 115,
+      "display_date": "02 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 157,
+      "kind": "transition",
+      "snapshotIndex": 115,
+      "display_date": "02 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 158,
+      "kind": "transition",
+      "snapshotIndex": 115,
+      "display_date": "02 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 159,
+      "kind": "transition",
+      "snapshotIndex": 115,
+      "display_date": "02 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 160,
+      "kind": "snapshot",
+      "snapshotIndex": 116,
+      "display_date": "09 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 161,
+      "kind": "snapshot",
+      "snapshotIndex": 117,
+      "display_date": "16 Apr 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 162,
+      "kind": "transition",
+      "snapshotIndex": 117,
+      "display_date": "16 Apr 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 163,
+      "kind": "transition",
+      "snapshotIndex": 117,
+      "display_date": "16 Apr 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 164,
+      "kind": "transition",
+      "snapshotIndex": 117,
+      "display_date": "16 Apr 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 165,
+      "kind": "transition",
+      "snapshotIndex": 117,
+      "display_date": "16 Apr 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 166,
+      "kind": "snapshot",
+      "snapshotIndex": 118,
+      "display_date": "23 Apr 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 167,
+      "kind": "transition",
+      "snapshotIndex": 118,
+      "display_date": "23 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 168,
+      "kind": "transition",
+      "snapshotIndex": 118,
+      "display_date": "23 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 169,
+      "kind": "transition",
+      "snapshotIndex": 118,
+      "display_date": "23 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 170,
+      "kind": "transition",
+      "snapshotIndex": 118,
+      "display_date": "23 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 171,
+      "kind": "snapshot",
+      "snapshotIndex": 119,
+      "display_date": "30 Apr 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 172,
+      "kind": "transition",
+      "snapshotIndex": 119,
+      "display_date": "30 Apr 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 173,
+      "kind": "transition",
+      "snapshotIndex": 119,
+      "display_date": "30 Apr 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 174,
+      "kind": "transition",
+      "snapshotIndex": 119,
+      "display_date": "30 Apr 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 175,
+      "kind": "transition",
+      "snapshotIndex": 119,
+      "display_date": "30 Apr 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 176,
+      "kind": "snapshot",
+      "snapshotIndex": 120,
+      "display_date": "07 May 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 177,
+      "kind": "snapshot",
+      "snapshotIndex": 121,
+      "display_date": "14 May 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 178,
+      "kind": "transition",
+      "snapshotIndex": 121,
+      "display_date": "14 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 179,
+      "kind": "transition",
+      "snapshotIndex": 121,
+      "display_date": "14 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 180,
+      "kind": "transition",
+      "snapshotIndex": 121,
+      "display_date": "14 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 181,
+      "kind": "transition",
+      "snapshotIndex": 121,
+      "display_date": "14 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 182,
+      "kind": "snapshot",
+      "snapshotIndex": 122,
+      "display_date": "21 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 183,
+      "kind": "transition",
+      "snapshotIndex": 122,
+      "display_date": "21 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 184,
+      "kind": "transition",
+      "snapshotIndex": 122,
+      "display_date": "21 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 185,
+      "kind": "transition",
+      "snapshotIndex": 122,
+      "display_date": "21 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 186,
+      "kind": "transition",
+      "snapshotIndex": 122,
+      "display_date": "21 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 187,
+      "kind": "snapshot",
+      "snapshotIndex": 123,
+      "display_date": "28 May 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 188,
+      "kind": "snapshot",
+      "snapshotIndex": 124,
+      "display_date": "04 Jun 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 189,
+      "kind": "snapshot",
+      "snapshotIndex": 125,
+      "display_date": "11 Jun 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 190,
+      "kind": "snapshot",
+      "snapshotIndex": 126,
+      "display_date": "18 Jun 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 191,
+      "kind": "transition",
+      "snapshotIndex": 126,
+      "display_date": "18 Jun 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 192,
+      "kind": "transition",
+      "snapshotIndex": 126,
+      "display_date": "18 Jun 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 193,
+      "kind": "transition",
+      "snapshotIndex": 126,
+      "display_date": "18 Jun 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 194,
+      "kind": "transition",
+      "snapshotIndex": 126,
+      "display_date": "18 Jun 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 195,
+      "kind": "snapshot",
+      "snapshotIndex": 127,
+      "display_date": "25 Jun 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 196,
+      "kind": "transition",
+      "snapshotIndex": 127,
+      "display_date": "25 Jun 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 197,
+      "kind": "transition",
+      "snapshotIndex": 127,
+      "display_date": "25 Jun 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 198,
+      "kind": "transition",
+      "snapshotIndex": 127,
+      "display_date": "25 Jun 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 199,
+      "kind": "transition",
+      "snapshotIndex": 127,
+      "display_date": "25 Jun 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 200,
+      "kind": "snapshot",
+      "snapshotIndex": 128,
+      "display_date": "02 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 201,
+      "kind": "transition",
+      "snapshotIndex": 128,
+      "display_date": "02 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 202,
+      "kind": "transition",
+      "snapshotIndex": 128,
+      "display_date": "02 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 203,
+      "kind": "transition",
+      "snapshotIndex": 128,
+      "display_date": "02 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 204,
+      "kind": "transition",
+      "snapshotIndex": 128,
+      "display_date": "02 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 205,
+      "kind": "snapshot",
+      "snapshotIndex": 129,
+      "display_date": "09 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 206,
+      "kind": "transition",
+      "snapshotIndex": 129,
+      "display_date": "09 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 207,
+      "kind": "transition",
+      "snapshotIndex": 129,
+      "display_date": "09 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 208,
+      "kind": "transition",
+      "snapshotIndex": 129,
+      "display_date": "09 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 209,
+      "kind": "transition",
+      "snapshotIndex": 129,
+      "display_date": "09 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 210,
+      "kind": "snapshot",
+      "snapshotIndex": 130,
+      "display_date": "16 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 211,
+      "kind": "transition",
+      "snapshotIndex": 130,
+      "display_date": "16 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 212,
+      "kind": "transition",
+      "snapshotIndex": 130,
+      "display_date": "16 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 213,
+      "kind": "transition",
+      "snapshotIndex": 130,
+      "display_date": "16 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 214,
+      "kind": "transition",
+      "snapshotIndex": 130,
+      "display_date": "16 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 215,
+      "kind": "snapshot",
+      "snapshotIndex": 131,
+      "display_date": "23 Jul 1938",
+      "changedStates": 2
+    },
+    {
+      "frame": 216,
+      "kind": "transition",
+      "snapshotIndex": 131,
+      "display_date": "23 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 217,
+      "kind": "transition",
+      "snapshotIndex": 131,
+      "display_date": "23 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 218,
+      "kind": "transition",
+      "snapshotIndex": 131,
+      "display_date": "23 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 219,
+      "kind": "transition",
+      "snapshotIndex": 131,
+      "display_date": "23 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 220,
+      "kind": "snapshot",
+      "snapshotIndex": 132,
+      "display_date": "30 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 221,
+      "kind": "transition",
+      "snapshotIndex": 132,
+      "display_date": "30 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 222,
+      "kind": "transition",
+      "snapshotIndex": 132,
+      "display_date": "30 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 223,
+      "kind": "transition",
+      "snapshotIndex": 132,
+      "display_date": "30 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 224,
+      "kind": "transition",
+      "snapshotIndex": 132,
+      "display_date": "30 Jul 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 225,
+      "kind": "snapshot",
+      "snapshotIndex": 133,
+      "display_date": "06 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 226,
+      "kind": "transition",
+      "snapshotIndex": 133,
+      "display_date": "06 Aug 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 227,
+      "kind": "transition",
+      "snapshotIndex": 133,
+      "display_date": "06 Aug 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 228,
+      "kind": "transition",
+      "snapshotIndex": 133,
+      "display_date": "06 Aug 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 229,
+      "kind": "transition",
+      "snapshotIndex": 133,
+      "display_date": "06 Aug 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 230,
+      "kind": "snapshot",
+      "snapshotIndex": 134,
+      "display_date": "13 Aug 1938",
+      "changedStates": 3
+    },
+    {
+      "frame": 231,
+      "kind": "transition",
+      "snapshotIndex": 134,
+      "display_date": "13 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 232,
+      "kind": "transition",
+      "snapshotIndex": 134,
+      "display_date": "13 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 233,
+      "kind": "transition",
+      "snapshotIndex": 134,
+      "display_date": "13 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 234,
+      "kind": "transition",
+      "snapshotIndex": 134,
+      "display_date": "13 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 235,
+      "kind": "snapshot",
+      "snapshotIndex": 135,
+      "display_date": "20 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 236,
+      "kind": "transition",
+      "snapshotIndex": 135,
+      "display_date": "20 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 237,
+      "kind": "transition",
+      "snapshotIndex": 135,
+      "display_date": "20 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 238,
+      "kind": "transition",
+      "snapshotIndex": 135,
+      "display_date": "20 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 239,
+      "kind": "transition",
+      "snapshotIndex": 135,
+      "display_date": "20 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 240,
+      "kind": "snapshot",
+      "snapshotIndex": 136,
+      "display_date": "27 Aug 1938",
+      "changedStates": 1
+    },
+    {
+      "frame": 241,
+      "kind": "transition",
+      "snapshotIndex": 136,
+      "display_date": "27 Aug 1938",
+      "changedStates": 6
+    },
+    {
+      "frame": 242,
+      "kind": "transition",
+      "snapshotIndex": 136,
+      "display_date": "27 Aug 1938",
+      "changedStates": 6
+    },
+    {
+      "frame": 243,
+      "kind": "transition",
+      "snapshotIndex": 136,
+      "display_date": "27 Aug 1938",
+      "changedStates": 6
+    },
+    {
+      "frame": 244,
+      "kind": "transition",
+      "snapshotIndex": 136,
+      "display_date": "27 Aug 1938",
+      "changedStates": 6
+    },
+    {
+      "frame": 245,
+      "kind": "snapshot",
+      "snapshotIndex": 137,
+      "display_date": "03 Sep 1938",
+      "changedStates": 6
+    },
+    {
+      "frame": 246,
+      "kind": "transition",
+      "snapshotIndex": 137,
+      "display_date": "03 Sep 1938",
+      "changedStates": 8
+    },
+    {
+      "frame": 247,
+      "kind": "transition",
+      "snapshotIndex": 137,
+      "display_date": "03 Sep 1938",
+      "changedStates": 8
+    },
+    {
+      "frame": 248,
+      "kind": "transition",
+      "snapshotIndex": 137,
+      "display_date": "03 Sep 1938",
+      "changedStates": 8
+    },
+    {
+      "frame": 249,
+      "kind": "transition",
+      "snapshotIndex": 137,
+      "display_date": "03 Sep 1938",
+      "changedStates": 8
+    },
+    {
+      "frame": 250,
+      "kind": "snapshot",
+      "snapshotIndex": 138,
+      "display_date": "10 Sep 1938",
+      "changedStates": 8
+    },
+    {
+      "frame": 251,
+      "kind": "snapshot",
+      "snapshotIndex": 139,
+      "display_date": "17 Sep 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 252,
+      "kind": "snapshot",
+      "snapshotIndex": 140,
+      "display_date": "24 Sep 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 253,
+      "kind": "snapshot",
+      "snapshotIndex": 141,
+      "display_date": "01 Oct 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 254,
+      "kind": "snapshot",
+      "snapshotIndex": 142,
+      "display_date": "08 Oct 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 255,
+      "kind": "snapshot",
+      "snapshotIndex": 143,
+      "display_date": "15 Oct 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 256,
+      "kind": "snapshot",
+      "snapshotIndex": 144,
+      "display_date": "22 Oct 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 257,
+      "kind": "snapshot",
+      "snapshotIndex": 145,
+      "display_date": "29 Oct 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 258,
+      "kind": "snapshot",
+      "snapshotIndex": 146,
+      "display_date": "05 Nov 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 259,
+      "kind": "snapshot",
+      "snapshotIndex": 147,
+      "display_date": "12 Nov 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 260,
+      "kind": "snapshot",
+      "snapshotIndex": 148,
+      "display_date": "19 Nov 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 261,
+      "kind": "snapshot",
+      "snapshotIndex": 149,
+      "display_date": "26 Nov 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 262,
+      "kind": "snapshot",
+      "snapshotIndex": 150,
+      "display_date": "03 Dec 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 263,
+      "kind": "snapshot",
+      "snapshotIndex": 151,
+      "display_date": "10 Dec 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 264,
+      "kind": "snapshot",
+      "snapshotIndex": 152,
+      "display_date": "17 Dec 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 265,
+      "kind": "snapshot",
+      "snapshotIndex": 153,
+      "display_date": "24 Dec 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 266,
+      "kind": "snapshot",
+      "snapshotIndex": 154,
+      "display_date": "31 Dec 1938",
+      "changedStates": 0
+    },
+    {
+      "frame": 267,
+      "kind": "snapshot",
+      "snapshotIndex": 155,
+      "display_date": "14 Jan 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 268,
+      "kind": "snapshot",
+      "snapshotIndex": 156,
+      "display_date": "21 Jan 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 269,
+      "kind": "snapshot",
+      "snapshotIndex": 157,
+      "display_date": "28 Jan 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 270,
+      "kind": "snapshot",
+      "snapshotIndex": 158,
+      "display_date": "04 Feb 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 271,
+      "kind": "snapshot",
+      "snapshotIndex": 159,
+      "display_date": "11 Feb 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 272,
+      "kind": "snapshot",
+      "snapshotIndex": 160,
+      "display_date": "18 Feb 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 273,
+      "kind": "snapshot",
+      "snapshotIndex": 161,
+      "display_date": "25 Feb 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 274,
+      "kind": "snapshot",
+      "snapshotIndex": 162,
+      "display_date": "04 Mar 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 275,
+      "kind": "snapshot",
+      "snapshotIndex": 163,
+      "display_date": "11 Mar 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 276,
+      "kind": "snapshot",
+      "snapshotIndex": 164,
+      "display_date": "18 Mar 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 277,
+      "kind": "snapshot",
+      "snapshotIndex": 165,
+      "display_date": "25 Mar 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 278,
+      "kind": "snapshot",
+      "snapshotIndex": 166,
+      "display_date": "01 Apr 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 279,
+      "kind": "snapshot",
+      "snapshotIndex": 167,
+      "display_date": "08 Apr 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 280,
+      "kind": "snapshot",
+      "snapshotIndex": 168,
+      "display_date": "15 Apr 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 281,
+      "kind": "snapshot",
+      "snapshotIndex": 169,
+      "display_date": "22 Apr 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 282,
+      "kind": "snapshot",
+      "snapshotIndex": 170,
+      "display_date": "29 Apr 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 283,
+      "kind": "transition",
+      "snapshotIndex": 170,
+      "display_date": "29 Apr 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 284,
+      "kind": "transition",
+      "snapshotIndex": 170,
+      "display_date": "29 Apr 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 285,
+      "kind": "transition",
+      "snapshotIndex": 170,
+      "display_date": "29 Apr 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 286,
+      "kind": "transition",
+      "snapshotIndex": 170,
+      "display_date": "29 Apr 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 287,
+      "kind": "snapshot",
+      "snapshotIndex": 171,
+      "display_date": "06 May 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 288,
+      "kind": "transition",
+      "snapshotIndex": 171,
+      "display_date": "06 May 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 289,
+      "kind": "transition",
+      "snapshotIndex": 171,
+      "display_date": "06 May 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 290,
+      "kind": "transition",
+      "snapshotIndex": 171,
+      "display_date": "06 May 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 291,
+      "kind": "transition",
+      "snapshotIndex": 171,
+      "display_date": "06 May 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 292,
+      "kind": "snapshot",
+      "snapshotIndex": 172,
+      "display_date": "13 May 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 293,
+      "kind": "snapshot",
+      "snapshotIndex": 173,
+      "display_date": "20 May 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 294,
+      "kind": "snapshot",
+      "snapshotIndex": 174,
+      "display_date": "27 May 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 295,
+      "kind": "snapshot",
+      "snapshotIndex": 175,
+      "display_date": "03 Jun 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 296,
+      "kind": "snapshot",
+      "snapshotIndex": 176,
+      "display_date": "10 Jun 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 297,
+      "kind": "snapshot",
+      "snapshotIndex": 177,
+      "display_date": "17 Jun 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 298,
+      "kind": "snapshot",
+      "snapshotIndex": 178,
+      "display_date": "24 Jun 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 299,
+      "kind": "snapshot",
+      "snapshotIndex": 179,
+      "display_date": "01 Jul 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 300,
+      "kind": "snapshot",
+      "snapshotIndex": 180,
+      "display_date": "08 Jul 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 301,
+      "kind": "snapshot",
+      "snapshotIndex": 181,
+      "display_date": "15 Jul 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 302,
+      "kind": "snapshot",
+      "snapshotIndex": 182,
+      "display_date": "22 Jul 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 303,
+      "kind": "transition",
+      "snapshotIndex": 182,
+      "display_date": "22 Jul 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 304,
+      "kind": "transition",
+      "snapshotIndex": 182,
+      "display_date": "22 Jul 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 305,
+      "kind": "transition",
+      "snapshotIndex": 182,
+      "display_date": "22 Jul 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 306,
+      "kind": "transition",
+      "snapshotIndex": 182,
+      "display_date": "22 Jul 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 307,
+      "kind": "snapshot",
+      "snapshotIndex": 183,
+      "display_date": "29 Jul 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 308,
+      "kind": "transition",
+      "snapshotIndex": 183,
+      "display_date": "29 Jul 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 309,
+      "kind": "transition",
+      "snapshotIndex": 183,
+      "display_date": "29 Jul 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 310,
+      "kind": "transition",
+      "snapshotIndex": 183,
+      "display_date": "29 Jul 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 311,
+      "kind": "transition",
+      "snapshotIndex": 183,
+      "display_date": "29 Jul 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 312,
+      "kind": "snapshot",
+      "snapshotIndex": 184,
+      "display_date": "05 Aug 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 313,
+      "kind": "transition",
+      "snapshotIndex": 184,
+      "display_date": "05 Aug 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 314,
+      "kind": "transition",
+      "snapshotIndex": 184,
+      "display_date": "05 Aug 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 315,
+      "kind": "transition",
+      "snapshotIndex": 184,
+      "display_date": "05 Aug 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 316,
+      "kind": "transition",
+      "snapshotIndex": 184,
+      "display_date": "05 Aug 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 317,
+      "kind": "snapshot",
+      "snapshotIndex": 185,
+      "display_date": "12 Aug 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 318,
+      "kind": "transition",
+      "snapshotIndex": 185,
+      "display_date": "12 Aug 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 319,
+      "kind": "transition",
+      "snapshotIndex": 185,
+      "display_date": "12 Aug 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 320,
+      "kind": "transition",
+      "snapshotIndex": 185,
+      "display_date": "12 Aug 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 321,
+      "kind": "transition",
+      "snapshotIndex": 185,
+      "display_date": "12 Aug 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 322,
+      "kind": "snapshot",
+      "snapshotIndex": 186,
+      "display_date": "19 Aug 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 323,
+      "kind": "transition",
+      "snapshotIndex": 186,
+      "display_date": "19 Aug 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 324,
+      "kind": "transition",
+      "snapshotIndex": 186,
+      "display_date": "19 Aug 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 325,
+      "kind": "transition",
+      "snapshotIndex": 186,
+      "display_date": "19 Aug 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 326,
+      "kind": "transition",
+      "snapshotIndex": 186,
+      "display_date": "19 Aug 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 327,
+      "kind": "snapshot",
+      "snapshotIndex": 187,
+      "display_date": "26 Aug 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 328,
+      "kind": "transition",
+      "snapshotIndex": 187,
+      "display_date": "26 Aug 1939",
+      "changedStates": 9
+    },
+    {
+      "frame": 329,
+      "kind": "transition",
+      "snapshotIndex": 187,
+      "display_date": "26 Aug 1939",
+      "changedStates": 9
+    },
+    {
+      "frame": 330,
+      "kind": "transition",
+      "snapshotIndex": 187,
+      "display_date": "26 Aug 1939",
+      "changedStates": 9
+    },
+    {
+      "frame": 331,
+      "kind": "transition",
+      "snapshotIndex": 187,
+      "display_date": "26 Aug 1939",
+      "changedStates": 9
+    },
+    {
+      "frame": 332,
+      "kind": "snapshot",
+      "snapshotIndex": 188,
+      "display_date": "02 Sep 1939",
+      "changedStates": 9
+    },
+    {
+      "frame": 333,
+      "kind": "transition",
+      "snapshotIndex": 188,
+      "display_date": "02 Sep 1939",
+      "changedStates": 4
+    },
+    {
+      "frame": 334,
+      "kind": "transition",
+      "snapshotIndex": 188,
+      "display_date": "02 Sep 1939",
+      "changedStates": 4
+    },
+    {
+      "frame": 335,
+      "kind": "transition",
+      "snapshotIndex": 188,
+      "display_date": "02 Sep 1939",
+      "changedStates": 4
+    },
+    {
+      "frame": 336,
+      "kind": "transition",
+      "snapshotIndex": 188,
+      "display_date": "02 Sep 1939",
+      "changedStates": 4
+    },
+    {
+      "frame": 337,
+      "kind": "snapshot",
+      "snapshotIndex": 189,
+      "display_date": "09 Sep 1939",
+      "changedStates": 4
+    },
+    {
+      "frame": 338,
+      "kind": "transition",
+      "snapshotIndex": 189,
+      "display_date": "09 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 339,
+      "kind": "transition",
+      "snapshotIndex": 189,
+      "display_date": "09 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 340,
+      "kind": "transition",
+      "snapshotIndex": 189,
+      "display_date": "09 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 341,
+      "kind": "transition",
+      "snapshotIndex": 189,
+      "display_date": "09 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 342,
+      "kind": "snapshot",
+      "snapshotIndex": 190,
+      "display_date": "16 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 343,
+      "kind": "transition",
+      "snapshotIndex": 190,
+      "display_date": "16 Sep 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 344,
+      "kind": "transition",
+      "snapshotIndex": 190,
+      "display_date": "16 Sep 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 345,
+      "kind": "transition",
+      "snapshotIndex": 190,
+      "display_date": "16 Sep 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 346,
+      "kind": "transition",
+      "snapshotIndex": 190,
+      "display_date": "16 Sep 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 347,
+      "kind": "snapshot",
+      "snapshotIndex": 191,
+      "display_date": "23 Sep 1939",
+      "changedStates": 7
+    },
+    {
+      "frame": 348,
+      "kind": "transition",
+      "snapshotIndex": 191,
+      "display_date": "23 Sep 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 349,
+      "kind": "transition",
+      "snapshotIndex": 191,
+      "display_date": "23 Sep 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 350,
+      "kind": "transition",
+      "snapshotIndex": 191,
+      "display_date": "23 Sep 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 351,
+      "kind": "transition",
+      "snapshotIndex": 191,
+      "display_date": "23 Sep 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 352,
+      "kind": "snapshot",
+      "snapshotIndex": 192,
+      "display_date": "30 Sep 1939",
+      "changedStates": 6
+    },
+    {
+      "frame": 353,
+      "kind": "transition",
+      "snapshotIndex": 192,
+      "display_date": "30 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 354,
+      "kind": "transition",
+      "snapshotIndex": 192,
+      "display_date": "30 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 355,
+      "kind": "transition",
+      "snapshotIndex": 192,
+      "display_date": "30 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 356,
+      "kind": "transition",
+      "snapshotIndex": 192,
+      "display_date": "30 Sep 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 357,
+      "kind": "snapshot",
+      "snapshotIndex": 193,
+      "display_date": "07 Oct 1939",
+      "changedStates": 3
+    },
+    {
+      "frame": 358,
+      "kind": "transition",
+      "snapshotIndex": 193,
+      "display_date": "07 Oct 1939",
+      "changedStates": 20
+    },
+    {
+      "frame": 359,
+      "kind": "transition",
+      "snapshotIndex": 193,
+      "display_date": "07 Oct 1939",
+      "changedStates": 20
+    },
+    {
+      "frame": 360,
+      "kind": "transition",
+      "snapshotIndex": 193,
+      "display_date": "07 Oct 1939",
+      "changedStates": 20
+    },
+    {
+      "frame": 361,
+      "kind": "transition",
+      "snapshotIndex": 193,
+      "display_date": "07 Oct 1939",
+      "changedStates": 20
+    },
+    {
+      "frame": 362,
+      "kind": "snapshot",
+      "snapshotIndex": 194,
+      "display_date": "14 Oct 1939",
+      "changedStates": 20
+    },
+    {
+      "frame": 363,
+      "kind": "transition",
+      "snapshotIndex": 194,
+      "display_date": "14 Oct 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 364,
+      "kind": "transition",
+      "snapshotIndex": 194,
+      "display_date": "14 Oct 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 365,
+      "kind": "transition",
+      "snapshotIndex": 194,
+      "display_date": "14 Oct 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 366,
+      "kind": "transition",
+      "snapshotIndex": 194,
+      "display_date": "14 Oct 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 367,
+      "kind": "snapshot",
+      "snapshotIndex": 195,
+      "display_date": "21 Oct 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 368,
+      "kind": "transition",
+      "snapshotIndex": 195,
+      "display_date": "21 Oct 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 369,
+      "kind": "transition",
+      "snapshotIndex": 195,
+      "display_date": "21 Oct 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 370,
+      "kind": "transition",
+      "snapshotIndex": 195,
+      "display_date": "21 Oct 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 371,
+      "kind": "transition",
+      "snapshotIndex": 195,
+      "display_date": "21 Oct 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 372,
+      "kind": "snapshot",
+      "snapshotIndex": 196,
+      "display_date": "28 Oct 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 373,
+      "kind": "transition",
+      "snapshotIndex": 196,
+      "display_date": "28 Oct 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 374,
+      "kind": "transition",
+      "snapshotIndex": 196,
+      "display_date": "28 Oct 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 375,
+      "kind": "transition",
+      "snapshotIndex": 196,
+      "display_date": "28 Oct 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 376,
+      "kind": "transition",
+      "snapshotIndex": 196,
+      "display_date": "28 Oct 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 377,
+      "kind": "snapshot",
+      "snapshotIndex": 197,
+      "display_date": "04 Nov 1939",
+      "changedStates": 5
+    },
+    {
+      "frame": 378,
+      "kind": "transition",
+      "snapshotIndex": 197,
+      "display_date": "04 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 379,
+      "kind": "transition",
+      "snapshotIndex": 197,
+      "display_date": "04 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 380,
+      "kind": "transition",
+      "snapshotIndex": 197,
+      "display_date": "04 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 381,
+      "kind": "transition",
+      "snapshotIndex": 197,
+      "display_date": "04 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 382,
+      "kind": "snapshot",
+      "snapshotIndex": 198,
+      "display_date": "11 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 383,
+      "kind": "snapshot",
+      "snapshotIndex": 199,
+      "display_date": "18 Nov 1939",
+      "changedStates": 0
+    },
+    {
+      "frame": 384,
+      "kind": "transition",
+      "snapshotIndex": 199,
+      "display_date": "18 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 385,
+      "kind": "transition",
+      "snapshotIndex": 199,
+      "display_date": "18 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 386,
+      "kind": "transition",
+      "snapshotIndex": 199,
+      "display_date": "18 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 387,
+      "kind": "transition",
+      "snapshotIndex": 199,
+      "display_date": "18 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 388,
+      "kind": "snapshot",
+      "snapshotIndex": 200,
+      "display_date": "25 Nov 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 389,
+      "kind": "transition",
+      "snapshotIndex": 200,
+      "display_date": "25 Nov 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 390,
+      "kind": "transition",
+      "snapshotIndex": 200,
+      "display_date": "25 Nov 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 391,
+      "kind": "transition",
+      "snapshotIndex": 200,
+      "display_date": "25 Nov 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 392,
+      "kind": "transition",
+      "snapshotIndex": 200,
+      "display_date": "25 Nov 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 393,
+      "kind": "snapshot",
+      "snapshotIndex": 201,
+      "display_date": "02 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 394,
+      "kind": "transition",
+      "snapshotIndex": 201,
+      "display_date": "02 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 395,
+      "kind": "transition",
+      "snapshotIndex": 201,
+      "display_date": "02 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 396,
+      "kind": "transition",
+      "snapshotIndex": 201,
+      "display_date": "02 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 397,
+      "kind": "transition",
+      "snapshotIndex": 201,
+      "display_date": "02 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 398,
+      "kind": "snapshot",
+      "snapshotIndex": 202,
+      "display_date": "09 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 399,
+      "kind": "transition",
+      "snapshotIndex": 202,
+      "display_date": "09 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 400,
+      "kind": "transition",
+      "snapshotIndex": 202,
+      "display_date": "09 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 401,
+      "kind": "transition",
+      "snapshotIndex": 202,
+      "display_date": "09 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 402,
+      "kind": "transition",
+      "snapshotIndex": 202,
+      "display_date": "09 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 403,
+      "kind": "snapshot",
+      "snapshotIndex": 203,
+      "display_date": "16 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 404,
+      "kind": "transition",
+      "snapshotIndex": 203,
+      "display_date": "16 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 405,
+      "kind": "transition",
+      "snapshotIndex": 203,
+      "display_date": "16 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 406,
+      "kind": "transition",
+      "snapshotIndex": 203,
+      "display_date": "16 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 407,
+      "kind": "transition",
+      "snapshotIndex": 203,
+      "display_date": "16 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 408,
+      "kind": "snapshot",
+      "snapshotIndex": 204,
+      "display_date": "23 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 409,
+      "kind": "transition",
+      "snapshotIndex": 204,
+      "display_date": "23 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 410,
+      "kind": "transition",
+      "snapshotIndex": 204,
+      "display_date": "23 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 411,
+      "kind": "transition",
+      "snapshotIndex": 204,
+      "display_date": "23 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 412,
+      "kind": "transition",
+      "snapshotIndex": 204,
+      "display_date": "23 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 413,
+      "kind": "snapshot",
+      "snapshotIndex": 205,
+      "display_date": "30 Dec 1939",
+      "changedStates": 1
+    },
+    {
+      "frame": 414,
+      "kind": "transition",
+      "snapshotIndex": 205,
+      "display_date": "30 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 415,
+      "kind": "transition",
+      "snapshotIndex": 205,
+      "display_date": "30 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 416,
+      "kind": "transition",
+      "snapshotIndex": 205,
+      "display_date": "30 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 417,
+      "kind": "transition",
+      "snapshotIndex": 205,
+      "display_date": "30 Dec 1939",
+      "changedStates": 2
+    },
+    {
+      "frame": 418,
+      "kind": "snapshot",
+      "snapshotIndex": 206,
+      "display_date": "13 Jan 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 419,
+      "kind": "transition",
+      "snapshotIndex": 206,
+      "display_date": "13 Jan 1940",
+      "changedStates": 1
+    },
+    {
+      "frame": 420,
+      "kind": "transition",
+      "snapshotIndex": 206,
+      "display_date": "13 Jan 1940",
+      "changedStates": 1
+    },
+    {
+      "frame": 421,
+      "kind": "transition",
+      "snapshotIndex": 206,
+      "display_date": "13 Jan 1940",
+      "changedStates": 1
+    },
+    {
+      "frame": 422,
+      "kind": "transition",
+      "snapshotIndex": 206,
+      "display_date": "13 Jan 1940",
+      "changedStates": 1
+    },
+    {
+      "frame": 423,
+      "kind": "snapshot",
+      "snapshotIndex": 207,
+      "display_date": "20 Jan 1940",
+      "changedStates": 1
+    },
+    {
+      "frame": 424,
+      "kind": "transition",
+      "snapshotIndex": 207,
+      "display_date": "20 Jan 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 425,
+      "kind": "transition",
+      "snapshotIndex": 207,
+      "display_date": "20 Jan 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 426,
+      "kind": "transition",
+      "snapshotIndex": 207,
+      "display_date": "20 Jan 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 427,
+      "kind": "transition",
+      "snapshotIndex": 207,
+      "display_date": "20 Jan 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 428,
+      "kind": "snapshot",
+      "snapshotIndex": 208,
+      "display_date": "27 Jan 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 429,
+      "kind": "transition",
+      "snapshotIndex": 208,
+      "display_date": "27 Jan 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 430,
+      "kind": "transition",
+      "snapshotIndex": 208,
+      "display_date": "27 Jan 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 431,
+      "kind": "transition",
+      "snapshotIndex": 208,
+      "display_date": "27 Jan 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 432,
+      "kind": "transition",
+      "snapshotIndex": 208,
+      "display_date": "27 Jan 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 433,
+      "kind": "snapshot",
+      "snapshotIndex": 209,
+      "display_date": "03 Feb 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 434,
+      "kind": "transition",
+      "snapshotIndex": 209,
+      "display_date": "03 Feb 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 435,
+      "kind": "transition",
+      "snapshotIndex": 209,
+      "display_date": "03 Feb 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 436,
+      "kind": "transition",
+      "snapshotIndex": 209,
+      "display_date": "03 Feb 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 437,
+      "kind": "transition",
+      "snapshotIndex": 209,
+      "display_date": "03 Feb 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 438,
+      "kind": "snapshot",
+      "snapshotIndex": 210,
+      "display_date": "10 Feb 1940",
+      "changedStates": 4
+    },
+    {
+      "frame": 439,
+      "kind": "snapshot",
+      "snapshotIndex": 211,
+      "display_date": "17 Feb 1940",
+      "changedStates": 0
+    },
+    {
+      "frame": 440,
+      "kind": "snapshot",
+      "snapshotIndex": 212,
+      "display_date": "24 Feb 1940",
+      "changedStates": 0
+    },
+    {
+      "frame": 441,
+      "kind": "transition",
+      "snapshotIndex": 212,
+      "display_date": "24 Feb 1940",
+      "changedStates": 3
+    },
+    {
+      "frame": 442,
+      "kind": "transition",
+      "snapshotIndex": 212,
+      "display_date": "24 Feb 1940",
+      "changedStates": 3
+    },
+    {
+      "frame": 443,
+      "kind": "transition",
+      "snapshotIndex": 212,
+      "display_date": "24 Feb 1940",
+      "changedStates": 3
+    },
+    {
+      "frame": 444,
+      "kind": "transition",
+      "snapshotIndex": 212,
+      "display_date": "24 Feb 1940",
+      "changedStates": 3
+    },
+    {
+      "frame": 445,
+      "kind": "snapshot",
+      "snapshotIndex": 213,
+      "display_date": "03 Mar 1940",
+      "changedStates": 3
+    },
+    {
+      "frame": 446,
+      "kind": "transition",
+      "snapshotIndex": 213,
+      "display_date": "03 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 447,
+      "kind": "transition",
+      "snapshotIndex": 213,
+      "display_date": "03 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 448,
+      "kind": "transition",
+      "snapshotIndex": 213,
+      "display_date": "03 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 449,
+      "kind": "transition",
+      "snapshotIndex": 213,
+      "display_date": "03 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 450,
+      "kind": "snapshot",
+      "snapshotIndex": 214,
+      "display_date": "10 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 451,
+      "kind": "transition",
+      "snapshotIndex": 214,
+      "display_date": "10 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 452,
+      "kind": "transition",
+      "snapshotIndex": 214,
+      "display_date": "10 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 453,
+      "kind": "transition",
+      "snapshotIndex": 214,
+      "display_date": "10 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 454,
+      "kind": "transition",
+      "snapshotIndex": 214,
+      "display_date": "10 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 455,
+      "kind": "snapshot",
+      "snapshotIndex": 215,
+      "display_date": "17 Mar 1940",
+      "changedStates": 2
+    },
+    {
+      "frame": 456,
+      "kind": "transition",
+      "snapshotIndex": 215,
+      "display_date": "17 Mar 1940",
+      "changedStates": 7
+    },
+    {
+      "frame": 457,
+      "kind": "transition",
+      "snapshotIndex": 215,
+      "display_date": "17 Mar 1940",
+      "changedStates": 7
+    },
+    {
+      "frame": 458,
+      "kind": "transition",
+      "snapshotIndex": 215,
+      "display_date": "17 Mar 1940",
+      "changedStates": 7
+    },
+    {
+      "frame": 459,
+      "kind": "transition",
+      "snapshotIndex": 215,
+      "display_date": "17 Mar 1940",
+      "changedStates": 7
+    },
+    {
+      "frame": 460,
+      "kind": "snapshot",
+      "snapshotIndex": 216,
+      "display_date": "24 Mar 1940",
+      "changedStates": 7
+    }
+  ],
+  "legend": {
+    "allies": "#5a86cd",
+    "axis": "#2b2b2d",
+    "comintern": "#bf3e3e",
+    "geacps": "#846c3f",
+    "neutral": "#7a8088",
+    "unknown": "#9aa0a6"
+  },
+  "factionMap": {
+    "ALB": "axis",
+    "AST": "allies",
+    "AUS": "axis",
+    "BEL": "allies",
+    "BUL": "axis",
+    "CAN": "allies",
+    "CHI": "neutral",
+    "CZE": "axis",
+    "EFR": "neutral",
+    "ENG": "allies",
+    "ETH": "axis",
+    "FIN": "axis",
+    "FRA": "allies",
+    "GER": "axis",
+    "GRE": "allies",
+    "HOL": "allies",
+    "HUN": "axis",
+    "INS": "allies",
+    "IRE": "allies",
+    "ITA": "axis",
+    "JAP": "geacps",
+    "MAN": "geacps",
+    "MEN": "geacps",
+    "SIA": "geacps",
+    "LIT": "comintern",
+    "LAT": "comintern",
+    "EST": "comintern",
+    "MON": "comintern",
+    "TAN": "comintern",
+    "NUL": "neutral",
+    "NZL": "allies",
+    "POL": "allies",
+    "RAJ": "allies",
+    "ROM": "axis",
+    "SAF": "allies",
+    "SAU": "allies",
+    "SOV": "comintern",
+    "SPR": "axis",
+    "SWE": "axis",
+    "TUR": "comintern",
+    "USA": "allies",
+    "VEN": "axis",
+    "YUG": "allies"
+  },
+  "unknownTags": []
+}

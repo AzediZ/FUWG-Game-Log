@@ -2,8 +2,8 @@
   {
     "date": "2026-05-16",
     "title": "HOI4 FUWG Long Frontline",
-    "description": "Parsed-save animation with pre-rendered smooth frontline transitions and video playback.",
-    "path": "games/2026-05-16-long-frontline/index.html",
+    "description": "Parsed-save animation with pre-rendered animated border transitions and slower video playback.",
+    "path": "games/2026-05-16-long-frontline-transition-video/index.html",
     "mod": "FUWG",
     "status": "Published"
   }
