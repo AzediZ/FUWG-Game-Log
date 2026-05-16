@@ -1,1 +1,1 @@
-Copy games/2026-05-16-172909/ into the repo games folder, then merge the games/games.json entry.
+Import package for 16-05-2026. Copy the games/16-05-2026 folder into your repo games folder and merge/update games/games.json.
