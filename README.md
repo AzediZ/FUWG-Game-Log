@@ -1,5 +1,3 @@
-# HOI4 FUWG Long Frontline
+# HOI4 Parsed Save Archive
 
-Speed-tuned transition-video build. Animated border transitions remain baked into the video.
-
-Speeds: Slow 0.90x, Normal 1.50x, Fast 2.35x.
+Long-form FUWG parsed-save animation with pre-rendered animated border transitions and video playback.
