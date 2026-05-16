@@ -3304,5 +3304,10 @@
     "PRU": "allies",
     "CUB": "comintern",
     "note": "Chile currently set to Axis for this pass."
-  }
+  },
+  "updatedTags": [
+    "CHL",
+    "NEP"
+  ],
+  "overlayPatch": "nepal_chile_fix_overlay.png"
 }
