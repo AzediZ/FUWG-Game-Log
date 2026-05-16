@@ -1,7 +1,10 @@
-# HOI4 Parsed Save Archive
+# HOI4 Game Logs Import Structure
 
-Long-form FUWG parsed-save animation with pre-rendered animated border transitions and video playback.
+Blank import structure for the HOI4 parsed save animation repo.
 
-Additional patch:
-- NEP = Allies
-- CHL = Allies
+Contents:
+- `games/`
+- `games/games.json`
+
+Use `games/games.json` as the central list of imported game logs.
+Future generated game-log folders should be dropped into `games/` and then listed in `games/games.json`.
