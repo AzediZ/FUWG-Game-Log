@@ -1,3 +1,3 @@
 # HOI4 Parsed Save Archive
 
-No-blink long-form parsed-save animation repo. Main page has a built-in games fallback so it works locally and on GitHub Pages.
+This build uses canvas no-blink playback and a static main page game list. Parsed frames remain the source of truth.
