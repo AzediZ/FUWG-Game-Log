@@ -1,3 +1,2 @@
-Import package for 16-05-2026. Copy the games/16-05-2026 folder into your repo games folder and merge/update games/games.json.
-
-Final colour fix v3: static targeted overlays for FIN, MON, EFR/Vichy, NEP, ARG.
+Import the folder `16-05-2026` into your repo's `games/` directory and merge/update `games/games.json`.
+This package was rendered controller-only from parsed data.

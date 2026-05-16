@@ -2,7 +2,7 @@
   {
     "date": "16-05-2026",
     "title": "16-05-2026",
-    "description": "Parsed HOI4 game log, 03 Jan 1936 to 07 May 1945, updated faction rules.",
+    "description": "Controller-only parsed render.",
     "path": "games/16-05-2026/index.html",
     "mod": "FUWG",
     "status": "Published"
