@@ -1,9 +1,3 @@
 # HOI4 Parsed Save Archive
 
-Final tagfix build.
-
-Updated faction mapping:
-- CHI = Allies
-- ARG = Axis
-- PRU = Allies
-- CUB = Comintern
+Long-form FUWG parsed-save animation with pre-rendered animated border transitions and video playback.

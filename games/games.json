@@ -2,7 +2,7 @@
   {
     "date": "2026-05-16",
     "title": "HOI4 FUWG Long Frontline",
-    "description": "Final tagfix build with corrected CHI/ARG/PRU/CUB faction colours.",
+    "description": "Parsed-save animation with animated border transitions and true multi-speed video playback.",
     "path": "games/2026-05-16-long-frontline-transition-video/index.html",
     "mod": "FUWG",
     "status": "Published"
