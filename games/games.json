@@ -2,7 +2,7 @@
   {
     "date": "16-05-2026",
     "title": "16-05-2026",
-    "description": "Parsed render with carry-forward and Finnish Winter War return rule.",
+    "description": "Parsed render using explicit controller each snapshot with carry-forward for missing/NUL states.",
     "path": "games/16-05-2026/index.html",
     "mod": "FUWG",
     "status": "Published"

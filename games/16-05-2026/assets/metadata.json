@@ -1,9 +1,9 @@
 {
   "date": "16-05-2026",
   "title": "16-05-2026",
-  "description": "Parsed render with carry-forward for missing states and Finnish Winter War return rule.",
+  "description": "Parsed render using explicit controller each snapshot, carry-forward for missing/NUL states, default seed for never-seen states, and Finnish Winter War reversion rule.",
   "snapshotCount": 479,
   "startDate": "1936.1.3.13",
   "endDate": "1945.5.7.13",
-  "mode": "controller_carry_forward"
+  "mode": "explicit_controller_with_carry_forward"
 }
