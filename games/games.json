@@ -2,7 +2,7 @@
   {
     "date": "16-05-2026",
     "title": "16-05-2026",
-    "description": "Parsed render using explicit controller each snapshot with carry-forward for missing/NUL states.",
+    "description": "Manual patched render for this game using user corrections.",
     "path": "games/16-05-2026/index.html",
     "mod": "FUWG",
     "status": "Published"
