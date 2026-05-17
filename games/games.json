@@ -2,7 +2,7 @@
   {
     "date": "16-05-2026",
     "title": "16-05-2026",
-    "description": "Controller-only parsed render.",
+    "description": "Parsed render with carry-forward and Finnish Winter War return rule.",
     "path": "games/16-05-2026/index.html",
     "mod": "FUWG",
     "status": "Published"
