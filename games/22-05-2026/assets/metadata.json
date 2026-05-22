@@ -1,0 +1,11 @@
+{
+  "date": "22-05-2026",
+  "title": "22-05-2026",
+  "description": "Parsed export render from gamelog export(14).zip",
+  "snapshotCount": 11,
+  "startDate": "1936-01-04",
+  "endDate": "1936-03-14",
+  "parserVersion": "v17",
+  "states": 1046,
+  "note": "This upload contains 11 early-1936 snapshots. Only 4 controller changes were present in the parsed data."
+}
