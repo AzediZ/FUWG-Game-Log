@@ -1,10 +1,22 @@
-# HOI4 Game Logs Import Structure
+# HOI4 Province Animator
 
-Blank import structure for the HOI4 parsed save animation repo.
+GitHub Pages-ready province-based HOI4 game-log animator.
 
-Contents:
-- `games/`
-- `games/games.json`
+## Included sample
 
-Use `games/games.json` as the central list of imported game logs.
-Future generated game-log folders should be dropped into `games/` and then listed in `games/games.json`.
+- `games/22-05-2026/`
+- Source parser export: `gamelog export(18).zip`
+- Parser version: `v23-full-province-snapshots-fuwg-states`
+- 15 snapshots
+- 10,240 provinces
+- Province controller data is the render source of truth.
+
+## Rendering method
+
+The sample uses exact province-controller endpoint frames and predictive transition distance maps.
+
+Between snapshots, provinces that change faction are revealed by frontier expansion rather than fading. Parsed snapshot endpoints remain exact.
+
+## Publish
+
+Upload the repo contents to GitHub Pages. `.nojekyll` is included.

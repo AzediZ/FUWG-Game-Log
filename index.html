@@ -1,7 +1,32 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HOI4 Parsed Save Archive</title><link rel="stylesheet" href="styles.css"></head><body><header class="hero"><div class="shell"><h1>HOI4 Parsed Save Archive</h1><p class="lead">Animated campaign recaps generated from parsed HOI4 save data.</p><div class="actions"><a class="btn primary" href="#games">View games</a><a class="btn" href="games/2026-05-16-long-frontline-transition-video/index.html">Open latest sample</a></div></div></header><main class="section" id="games"><div class="shell"><h2>Available games</h2><div id="gameGrid" class="grid"></div></div></main><footer class="footer"><div class="shell muted">GitHub Pages-ready static repo.</div></footer><script>
-const fallbackGames=[{"date": "2026-05-16", "title": "HOI4 FUWG Long Frontline", "description": "Parsed-save animation with pre-rendered animated border transitions and true multi-speed video playback.", "path": "games/2026-05-16-long-frontline-transition-video/index.html", "mod": "FUWG", "status": "Published"}];
-function escapeHtml(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
-function renderGames(games){const grid=document.getElementById('gameGrid');grid.innerHTML=games.map(game=>`<article class="card"><h3>${escapeHtml(game.title)}</h3><p class="muted">${escapeHtml(game.description)}</p><div class="meta"><span class="pill">${escapeHtml(game.date)}</span><span class="pill">${escapeHtml(game.mod)}</span><span class="pill">${escapeHtml(game.status)}</span></div><a class="btn primary" href="${game.path}">Watch animation</a></article>`).join('');}
-renderGames(fallbackGames);
-fetch('games/games.json',{cache:'no-store'}).then(r=>r.ok?r.json():fallbackGames).then(renderGames).catch(()=>renderGames(fallbackGames));
-</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HOI4 Province Game Logs</title>
+  <style>
+    body{margin:0;background:#111820;color:#e8edf2;font-family:system-ui,Segoe UI,Arial,sans-serif}
+    main{max-width:980px;margin:0 auto;padding:32px}
+    h1{font-size:28px;margin:0 0 18px}
+    .card{background:#18222c;border:1px solid #263544;border-radius:14px;padding:18px;margin:12px 0;box-shadow:0 8px 28px rgba(0,0,0,.28)}
+    a{color:#9ed0ff;text-decoration:none;font-weight:700}
+    p{color:#b7c3cf}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>HOI4 Province Game Logs</h1>
+    <p>Province-controller animations generated from parsed snapshots only.</p>
+    <div id="games"></div>
+  </main>
+  <script>
+    fetch('games/games.json').then(r=>r.json()).then(games=>{
+      document.getElementById('games').innerHTML = games.map(g => `
+        <div class="card">
+          <a href="${g.path}">${g.title}</a>
+          <p>${g.snapshots} snapshots · ${g.renderer}</p>
+        </div>`).join('');
+    });
+  </script>
+</body>
+</html>

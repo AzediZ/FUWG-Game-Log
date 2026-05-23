@@ -1,1 +1,148 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>22-05-2026</title><style>:root{color-scheme:dark}body{margin:0;background:#05070c;color:#fff;font-family:Inter,Arial,sans-serif;display:flex;justify-content:center}.wrap{width:min(1500px,96vw);padding:18px 0}h1{font-size:24px;margin:0 0 8px}p{color:#b7bcc8;margin:0 0 12px}.viewer{border:1px solid #2b3446;border-radius:18px;overflow:hidden;background:#04060a;box-shadow:0 18px 60px rgba(0,0,0,.55)}video{width:100%;display:block}.controls{display:flex;gap:10px;align-items:center;margin-top:12px;flex-wrap:wrap}button{border:0;border-radius:12px;padding:12px 16px;font-weight:800;cursor:pointer;background:#f3f4f6;color:#111}.badge{background:#141820;border:1px solid #2b3446;padding:10px 12px;border-radius:12px;color:#e5e7eb;min-width:280px}a.back{display:inline-block;margin-bottom:12px;color:#cbd5e1}</style></head><body><div class="wrap"><a class="back" href="../../index.html">← Back to archive</a><h1>22-05-2026</h1><p>Parsed export render. 1936-01-04 to 1936-03-14.</p><div class="viewer"><video id="video" src="assets/frontline_transition_normal.mp4" controls playsinline preload="metadata"></video></div><div class="controls"><button id="slow">Slow</button><button id="normal">Normal</button><button id="fast">Fast</button><span class="badge" id="speedBox">Speed: Normal</span></div></div><script>const video=document.getElementById('video');const speedBox=document.getElementById('speedBox');const variants={slow:{label:'Slow',src:'assets/frontline_transition_slow.mp4'},normal:{label:'Normal',src:'assets/frontline_transition_normal.mp4'},fast:{label:'Fast',src:'assets/frontline_transition_fast.mp4'}};let currentMode='normal';function setMode(mode){const v=variants[mode];if(!v||mode===currentMode)return;const wasPlaying=!video.paused;const ratio=(video.duration&&isFinite(video.duration))?(video.currentTime/video.duration):0;currentMode=mode;speedBox.textContent='Speed: '+v.label;video.pause();video.src=v.src;video.load();video.addEventListener('loadedmetadata',function onMeta(){video.removeEventListener('loadedmetadata',onMeta);if(video.duration&&isFinite(video.duration))video.currentTime=Math.max(0,Math.min(video.duration-0.1,ratio*video.duration));if(wasPlaying)video.play().catch(()=>{});});}document.getElementById('slow').onclick=()=>setMode('slow');document.getElementById('normal').onclick=()=>setMode('normal');document.getElementById('fast').onclick=()=>setMode('fast');</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>22-05-2026 - Province Animation</title>
+  <style>
+    :root{--bg:#10161d;--panel:#17212b;--line:#263646;--text:#e9eef4;--muted:#aebac6}
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,Segoe UI,Arial,sans-serif;overflow-x:hidden}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;background:#0d1319;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:3}
+    h1{font-size:18px;margin:0}
+    a{color:#9ed0ff;text-decoration:none}
+    .wrap{padding:16px;max-width:1500px;margin:0 auto}
+    .stage{position:relative;background:#0a0f13;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:0 18px 60px rgba(0,0,0,.35)}
+    canvas{display:block;width:100%;height:auto;image-rendering:auto}
+    .date{position:absolute;top:14px;left:14px;background:rgba(9,13,18,.78);border:1px solid rgba(255,255,255,.16);border-radius:10px;padding:8px 12px;font-weight:800;letter-spacing:.03em}
+    .bar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:12px;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px}
+    button,select,input[type=range]{accent-color:#9ed0ff}
+    button,select{background:#0e151c;color:var(--text);border:1px solid #34485c;border-radius:10px;padding:9px 12px;font-weight:700}
+    button:hover{filter:brightness(1.15);cursor:pointer}
+    .grow{flex:1;min-width:220px}
+    input[type=range]{width:100%}
+    .meta{color:var(--muted);font-size:13px;margin-top:10px}
+    .legend{display:flex;gap:8px;flex-wrap:wrap;margin-left:auto}
+    .pill{display:inline-flex;align-items:center;gap:6px;color:#cfd8e2;font-size:12px}
+    .sw{width:14px;height:14px;border-radius:4px;border:1px solid rgba(255,255,255,.25)}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>22-05-2026 Province Animator</h1>
+    <a href="../../">All games</a>
+  </header>
+  <div class="wrap">
+    <div class="stage">
+      <canvas id="map"></canvas>
+      <div class="date" id="date">Loading…</div>
+    </div>
+    <div class="bar">
+      <button id="play">Pause</button>
+      <select id="speed">
+        <option value="0.55">Slow</option>
+        <option value="1" selected>Normal</option>
+        <option value="2.2">Fast</option>
+      </select>
+      <div class="grow"><input id="scrub" type="range" min="0" max="1" step="0.001" value="0"></div>
+      <span id="status">Loading assets…</span>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="meta" id="meta"></div>
+  </div>
+
+<script>
+const canvas = document.getElementById('map');
+const ctx = canvas.getContext('2d', { alpha:false, willReadFrequently:true });
+const dateEl = document.getElementById('date');
+const playBtn = document.getElementById('play');
+const scrub = document.getElementById('scrub');
+const speedEl = document.getElementById('speed');
+const statusEl = document.getElementById('status');
+const metaEl = document.getElementById('meta');
+
+let meta, frames=[], dists=[], frameData=[], distData=[];
+let playing = true;
+let t = 0;
+let last = performance.now();
+const secondsPerTransition = 2.25;
+
+function img(src){
+  return new Promise((resolve,reject)=>{
+    const im = new Image();
+    im.onload = () => resolve(im);
+    im.onerror = reject;
+    im.src = src;
+  });
+}
+function imageDataFromImage(im){
+  const off = document.createElement('canvas');
+  off.width = im.width; off.height = im.height;
+  const c = off.getContext('2d', {willReadFrequently:true});
+  c.drawImage(im,0,0);
+  return c.getImageData(0,0,im.width,im.height);
+}
+function clamp(x,a,b){return Math.max(a,Math.min(b,x));}
+function niceDate(s){
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s||'');
+  return m ? `${m[3]}/${m[2]}/${m[1]}` : s;
+}
+function render(pos){
+  if (!meta) return;
+  const n = meta.dates.length;
+  const maxPos = n - 1;
+  pos = clamp(pos, 0, maxPos);
+  const i = Math.min(Math.floor(pos), n-2);
+  const local = (pos >= maxPos) ? 1 : pos - i;
+  const a = frameData[i], b = frameData[i+1], d = distData[i];
+  const out = ctx.createImageData(canvas.width, canvas.height);
+  const od = out.data, ad = a.data, bd = b.data, dd = d.data;
+  const threshold = Math.floor(local * 254);
+  for (let p=0; p<od.length; p+=4){
+    const reveal = dd[p] <= threshold; // dist PNG is grayscale, R=G=B
+    const src = reveal ? bd : ad;
+    od[p] = src[p]; od[p+1] = src[p+1]; od[p+2] = src[p+2]; od[p+3] = 255;
+  }
+  if (pos >= maxPos) {
+    od.set(frameData[n-1].data);
+  }
+  ctx.putImageData(out,0,0);
+  dateEl.textContent = niceDate(meta.dates[Math.round(pos)]);
+  const tr = meta.transitions[i] || {};
+  statusEl.textContent = `Snapshot ${Math.min(i+1,n)}/${n} · changed provinces: ${tr.changedProvinces ?? 0}`;
+  scrub.value = String(pos / maxPos);
+}
+function tick(now){
+  const dt = (now-last)/1000; last = now;
+  if (playing && meta){
+    const maxPos = meta.dates.length - 1;
+    t += dt * Number(speedEl.value) / secondsPerTransition;
+    if (t > maxPos) t = 0;
+    render(t);
+  }
+  requestAnimationFrame(tick);
+}
+async function boot(){
+  meta = await fetch('assets/metadata.json').then(r=>r.json());
+  const n = meta.dates.length;
+  frames = await Promise.all([...Array(n)].map((_,i)=>img(`assets/frames/frame_${String(i).padStart(3,'0')}.png`)));
+  dists = await Promise.all([...Array(n-1)].map((_,i)=>img(`assets/transitions/dist_${String(i).padStart(3,'0')}_${String(i+1).padStart(3,'0')}.png`)));
+  canvas.width = frames[0].width; canvas.height = frames[0].height;
+  frameData = frames.map(imageDataFromImage);
+  distData = dists.map(imageDataFromImage);
+  document.getElementById('legend').innerHTML = [
+    ['Axis','#707478'],['Allies','#4e7ea6'],['Comintern','#a64c46'],['GEACPS','#c99b4e'],['Neutral','#aeaea4']
+  ].map(([n,c])=>`<span class="pill"><span class="sw" style="background:${c}"></span>${n}</span>`).join('');
+  metaEl.textContent = `${meta.parserVersion} · ${meta.provinceCount.toLocaleString()} provinces · ${meta.snapshotCount} snapshots · source: ${meta.source}`;
+  render(0);
+}
+playBtn.onclick = () => { playing = !playing; playBtn.textContent = playing ? 'Pause' : 'Play'; };
+scrub.oninput = () => { playing = false; playBtn.textContent='Play'; t = Number(scrub.value) * (meta.dates.length - 1); render(t); };
+boot().catch(err => {
+  console.error(err);
+  statusEl.textContent = 'Failed to load assets. Check browser console.';
+});
+requestAnimationFrame(tick);
+</script>
+</body>
+</html>
