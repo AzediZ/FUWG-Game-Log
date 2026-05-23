@@ -1,9 +1,10 @@
 [
   {
-    "id": "22-05-2026",
+    "date": "22-05-2026",
     "title": "22-05-2026",
-    "path": "games/22-05-2026/",
-    "snapshots": 15,
-    "renderer": "province-predictive"
+    "description": "Province-based sample with smooth predictive border movement.",
+    "path": "games/22-05-2026/index.html",
+    "mod": "FUWG",
+    "status": "Published"
   }
 ]

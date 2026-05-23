@@ -1,30 +1,27 @@
-# Province Parser Format Notes
+# Province Parser Format
 
-Confirmed from `gamelog export(18).zip`:
+Confirmed using `gamelog export(18).zip`.
 
 - Parser version: `v23-full-province-snapshots-fuwg-states`
-- Snapshot count: 15
-- State count: 1,046
-- Province count: 10,240
-- Province controller data exists and should be the renderer source of truth.
+- Snapshots: `15`
+- Province source of truth: `snapshots[n].provinces`
+- States are fallback/debug only.
 
-The animator should primarily read province controller data from the parser export.
+Expected snapshot object:
 
-Expected fields/concepts:
-
-- `province_controller_timeline.json`
-- `province_state_map.json`
-- snapshots array
-- each snapshot contains game date and province controller mapping
-- `provinceOverrides` may be present
-
-Recommended normalized in-memory shape:
-
-```js
+```json
 {
-  gameDate: '1936.1.4.13',
-  provinceControllers: Map<provinceId, controllerTag>
+  "date": "1936-01-04",
+  "file": "autosave_2.hoi4",
+  "states": { "1": "FRA" },
+  "provinces": { "1234": "GER" },
+  "provinceOverrides": {}
 }
 ```
 
-Renderer should not rely on state owner/controller except as a debug fallback.
+Renderer rules:
+
+1. Use province controller per snapshot.
+2. Convert controller tag to faction colour.
+3. Colour province pixels using `provinces.bmp` + `definition.csv`.
+4. Between snapshots, reveal changed province regions with predictive movement from neighbouring target territory rather than fading.

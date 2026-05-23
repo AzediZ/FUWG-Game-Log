@@ -1,32 +1,5 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>HOI4 Province Game Logs</title>
-  <style>
-    body{margin:0;background:#111820;color:#e8edf2;font-family:system-ui,Segoe UI,Arial,sans-serif}
-    main{max-width:980px;margin:0 auto;padding:32px}
-    h1{font-size:28px;margin:0 0 18px}
-    .card{background:#18222c;border:1px solid #263544;border-radius:14px;padding:18px;margin:12px 0;box-shadow:0 8px 28px rgba(0,0,0,.28)}
-    a{color:#9ed0ff;text-decoration:none;font-weight:700}
-    p{color:#b7c3cf}
-  </style>
-</head>
-<body>
-  <main>
-    <h1>HOI4 Province Game Logs</h1>
-    <p>Province-controller animations generated from parsed snapshots only.</p>
-    <div id="games"></div>
-  </main>
-  <script>
-    fetch('games/games.json').then(r=>r.json()).then(games=>{
-      document.getElementById('games').innerHTML = games.map(g => `
-        <div class="card">
-          <a href="${g.path}">${g.title}</a>
-          <p>${g.snapshots} snapshots · ${g.renderer}</p>
-        </div>`).join('');
-    });
-  </script>
-</body>
-</html>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>HOI4 Province Animator</title><style>body{margin:0;background:#070b12;color:#fff;font-family:Inter,Arial,sans-serif}.wrap{max-width:1100px;margin:auto;padding:46px 20px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}.card{background:#111827;border:1px solid #263244;border-radius:18px;padding:18px}.btn{display:inline-block;background:#f3f4f6;color:#111;padding:10px 14px;border-radius:12px;text-decoration:none;font-weight:800}.muted{color:#aab2c0}</style></head><body><div class="wrap"><h1>HOI4 Province Animator</h1><p class="muted">Province-based parsed-save animation archive.</p><div id="games" class="grid"></div></div><script>
+const fallback=[{"date":"22-05-2026","title":"22-05-2026","description":"Province-based sample with smooth predictive border movement.","path":"games/22-05-2026/index.html","mod":"FUWG","status":"Published"}];
+async function main(){let games=fallback;try{const r=await fetch('games/games.json',{cache:'no-store'});if(r.ok)games=await r.json()}catch(e){}document.getElementById('games').innerHTML=games.map(g=>`<div class="card"><h2>${g.title}</h2><p>${g.description}</p><p class="muted">${g.date} · ${g.mod}</p><a class="btn" href="${g.path}">Watch animation</a></div>`).join('')}
+main();
+</script></body></html>

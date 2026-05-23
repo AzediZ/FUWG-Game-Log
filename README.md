@@ -1,22 +1,23 @@
-# HOI4 Province Animator
+# HOI4 Province-Based Animator
 
-GitHub Pages-ready province-based HOI4 game-log animator.
+GitHub Pages-ready province animator repo.
 
-## Included sample
+## Current renderer
 
-- `games/22-05-2026/`
-- Source parser export: `gamelog export(18).zip`
-- Parser version: `v23-full-province-snapshots-fuwg-states`
-- 15 snapshots
-- 10,240 provinces
-- Province controller data is the render source of truth.
+- Province-based rendering using `snapshots[n].provinces` as the source of truth.
+- Smooth predictive border movement between snapshots.
+- Multi-speed video output: slow, normal, fast.
+- Static GitHub Pages archive structure.
 
-## Rendering method
+## Importing future games
 
-The sample uses exact province-controller endpoint frames and predictive transition distance maps.
+Add a folder under `games/DD-MM-YYYY/` with an `index.html` and `assets/frontline_transition_*.mp4`, then add the entry to `games/games.json`.
 
-Between snapshots, provinces that change faction are revealed by frontier expansion rather than fading. Parsed snapshot endpoints remain exact.
+Parser exports should include:
+- `game.json`
+- `snapshots.json`
+- `province_controller_timeline.json`
+- `province_state_map.json`
+- `parse_diagnostics.json`
 
-## Publish
-
-Upload the repo contents to GitHub Pages. `.nojekyll` is included.
+Province source of truth: `snapshots[n].provinces[province_id] = controller_tag`.
