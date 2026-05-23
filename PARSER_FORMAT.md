@@ -1,27 +1,18 @@
-# Province Parser Format
+# Parser format
 
-Confirmed using `gamelog export(18).zip`.
+Expected province parser input:
 
-- Parser version: `v23-full-province-snapshots-fuwg-states`
-- Snapshots: `15`
-- Province source of truth: `snapshots[n].provinces`
-- States are fallback/debug only.
+- `snapshots.json` as a list of snapshots
+- each snapshot has `date` and `provinces`
+- `provinces` is an object mapping province ID to controller tag
 
-Expected snapshot object:
+Example:
 
 ```json
 {
   "date": "1936-01-04",
-  "file": "autosave_2.hoi4",
-  "states": { "1": "FRA" },
-  "provinces": { "1234": "GER" },
-  "provinceOverrides": {}
+  "provinces": { "1": "FRA", "2": "GER" }
 }
 ```
 
-Renderer rules:
-
-1. Use province controller per snapshot.
-2. Convert controller tag to faction colour.
-3. Colour province pixels using `provinces.bmp` + `definition.csv`.
-4. Between snapshots, reveal changed province regions with predictive movement from neighbouring target territory rather than fading.
+The province controller is the source of truth.

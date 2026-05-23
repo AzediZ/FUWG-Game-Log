@@ -2,7 +2,7 @@
   {
     "date": "22-05-2026",
     "title": "22-05-2026",
-    "description": "Province-based sample with smooth predictive border movement.",
+    "description": "Province-based sample with smooth movement and no province borders.",
     "path": "games/22-05-2026/index.html",
     "mod": "FUWG",
     "status": "Published"

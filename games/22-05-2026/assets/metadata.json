@@ -1,10 +1,9 @@
 {
+  "date": "22-05-2026",
   "title": "22-05-2026",
-  "renderer": "province_predictive_movement",
+  "renderer": "province_predictive_movement_no_borders",
   "snapshotCount": 15,
   "provinceCount": 10240,
   "renderedFrames": 85,
-  "transitionSteps": 5,
-  "parserVersion": "v23-full-province-snapshots-fuwg-states",
-  "unknownTags": []
+  "notes": "Province-based sample with smooth predictive capture movement. Province/state border line overlay removed. NEP mapped to Allies."
 }
