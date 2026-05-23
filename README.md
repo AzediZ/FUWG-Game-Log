@@ -1,3 +1,3 @@
-# HOI4 Province Animator
+# HOI4 Province Animator Game Package
 
-GitHub Pages-ready province-based animator. This build removes province border lines and maps NEP to Allies.
+Province-based no-border smooth predictive movement render for 23-05-2026.
