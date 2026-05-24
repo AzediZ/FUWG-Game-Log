@@ -1,0 +1,10 @@
+{
+  "date": "23-05-2026-test",
+  "title": "23-05-2026 Test",
+  "description": "Province-based no-border smooth predictive movement test render.",
+  "snapshotCount": 41,
+  "provinceCount": 10121,
+  "renderedFrames": 201,
+  "unknownTags": [],
+  "renderer": "province_predictive_movement_no_borders"
+}

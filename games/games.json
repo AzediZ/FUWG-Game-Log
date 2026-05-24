@@ -1,9 +1,9 @@
 [
   {
-    "date": "23-05-2026",
-    "title": "23-05-2026",
-    "description": "Province-based smooth no-border render.",
-    "path": "games/23-05-2026/index.html",
+    "date": "23-05-2026-test",
+    "title": "23-05-2026 Test",
+    "description": "Province-based no-border smooth predictive movement test render.",
+    "path": "games/23-05-2026-test/index.html",
     "mod": "FUWG",
     "status": "Published"
   }

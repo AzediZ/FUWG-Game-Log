@@ -1,2 +1,1 @@
-Import `22-05-2026` into your repo games folder and merge/update games/games.json.
-Generated from gamelog export(14).zip.
+Import games/23-05-2026-test into the repo games folder and merge games/games.json.
