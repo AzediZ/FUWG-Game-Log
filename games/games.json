@@ -2,7 +2,7 @@
   {
     "date": "26-05-2026",
     "title": "26-05-2026",
-    "description": "Province-based render, land-only colouring, fixed Iran mapping.",
+    "description": "Province-based render, strict land/state-mapped mask.",
     "path": "games/26-05-2026/index.html",
     "mod": "FUWG",
     "status": "Published"

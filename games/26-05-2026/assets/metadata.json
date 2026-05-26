@@ -3,10 +3,15 @@
   "snapshotCount": 323,
   "startDate": "1936-01-04",
   "endDate": "1942-03-07",
-  "renderer": "province_direct_land_only",
-  "unknownTags": [],
+  "renderer": "province_direct_strict_state_mapped_land_only",
+  "unknownTags": [
+    "CRO",
+    "NOR"
+  ],
   "fixedMappings": {
     "PER": "comintern"
   },
-  "notes": "Only land provinces are coloured; sea/lake provinces remain base map to remove random faction spots."
+  "validProvinceIdsFromParserStateMap": 10240,
+  "maskedPixels": 253311,
+  "notes": "Colours only pixels whose province ID is both land in definition.csv and present in province_state_map.json. This removes sea/lake and unmapped-province speckles."
 }
