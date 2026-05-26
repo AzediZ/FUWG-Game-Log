@@ -1,13 +1,12 @@
 {
   "date": "26-05-2026",
-  "title": "26-05-2026",
-  "description": "Province-based no-border render. Direct snapshot frames from full parser output.",
   "snapshotCount": 323,
-  "provinceCount": 10319,
   "startDate": "1936-01-04",
   "endDate": "1942-03-07",
-  "renderedFrames": 323,
-  "renderer": "province_direct_no_borders",
+  "renderer": "province_direct_land_only",
   "unknownTags": [],
-  "parserVersion": "v29-always-visible-recovery-full-province-snapshots-fuwg-states-wakelock"
+  "fixedMappings": {
+    "PER": "comintern"
+  },
+  "notes": "Only land provinces are coloured; sea/lake provinces remain base map to remove random faction spots."
 }
