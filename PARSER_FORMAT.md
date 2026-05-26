@@ -1,14 +1,18 @@
-# Expected parser format
+# Parser format
 
-This renderer uses province-level controller data.
+Expected province parser input:
 
-Required files in parser export:
-- `snapshots_compact.json` or `snapshots.json`
-- each snapshot includes `date` and `provinces` object mapping `province_id` to controller tag
+- `snapshots.json` as a list of snapshots
+- each snapshot has `date` and `provinces`
+- `provinces` is an object mapping province ID to controller tag
 
 Example:
+
 ```json
-{ "date": "1936-01-04", "provinces": { "1": "ENG", "2": "SOV" } }
+{
+  "date": "1936-01-04",
+  "provinces": { "1": "FRA", "2": "GER" }
+}
 ```
 
-Controller tag is the source of truth. `NUL` entries are treated as missing and carry forward the last valid controller.
+The province controller is the source of truth.
