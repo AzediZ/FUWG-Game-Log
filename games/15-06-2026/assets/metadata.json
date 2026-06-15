@@ -1,0 +1,7 @@
+{
+  "renderer": "custom fast rebuild",
+  "safe_mode": "map-aware",
+  "snapshots": 400,
+  "fps_normal": 18,
+  "scale": 0.3
+}

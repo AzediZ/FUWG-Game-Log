@@ -1,3 +1,3 @@
-# HOI4 Province Animator — 26-05-2026
+# FUWG Game Log
 
-GitHub Pages-ready repo with a strict state-mapped land-only province render.
+Fresh repo with only the 15-06-2026 game render.

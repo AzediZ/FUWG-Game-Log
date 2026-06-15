@@ -1,9 +1,9 @@
 [
   {
-    "date": "26-05-2026",
-    "title": "26-05-2026",
-    "description": "Province-based render, strict land/state-mapped mask.",
-    "path": "games/26-05-2026/index.html",
+    "date": "15-06-2026",
+    "title": "15-06-2026",
+    "description": "Province renderer rebuild with map-aware safe-mode classifier.",
+    "path": "games/15-06-2026/index.html",
     "mod": "FUWG",
     "status": "Published"
   }
