@@ -2,7 +2,7 @@
   {
     "date": "15-06-2026",
     "title": "15-06-2026",
-    "description": "Province renderer rebuild with map-aware safe-mode classifier.",
+    "description": "Previous working visual style, using the cleaned 15-06-2026 parser export.",
     "path": "games/15-06-2026/index.html",
     "mod": "FUWG",
     "status": "Published"

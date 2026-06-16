@@ -1,7 +1,16 @@
 {
-  "renderer": "custom fast rebuild",
-  "safe_mode": "map-aware",
-  "snapshots": 400,
-  "fps_normal": 18,
-  "scale": 0.3
+  "date": "15-06-2026",
+  "snapshotCount": 400,
+  "startDate": "1936-01-25",
+  "endDate": "1943-10-09",
+  "renderer": "province_direct_strict_state_mapped_land_only_with_safe_mode_input",
+  "unknownTags": [],
+  "fixedMappings": {
+    "PER": "comintern",
+    "IRN": "comintern",
+    "CHI": "allies",
+    "KOR": "geacps"
+  },
+  "validProvinceIdsFromParserStateMap": 10122,
+  "notes": "Uses previous working visual style and cleaned snapshots_compact.json from the map-aware safe-mode pass."
 }
