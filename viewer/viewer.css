@@ -1,6 +1,6 @@
 :root { color-scheme: dark; }
 body { margin: 0; background: #05070c; color: #fff; font-family: Inter, Arial, Helvetica, sans-serif; }
-.fv { width: min(1600px, 100%); margin: 0 auto; padding: 16px; box-sizing: border-box; }
+.fv { width: min(1600px, 100%); margin: 0 auto; padding-block: 16px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); box-sizing: border-box; }
 .fv-head h1 { font-size: 24px; margin: 4px 0 6px; }
 .fv-desc { color: #b7bcc8; margin: 0 0 12px; }
 .fv-desc:empty { display: none; }
@@ -36,10 +36,12 @@ body { margin: 0; background: #05070c; color: #fff; font-family: Inter, Arial, H
 .fv-hint { color: #7a8088; font-size: 13px; margin: 10px 0 0; }
 
 @media (max-width: 640px) {
-  .fv { padding: 10px 16px; }
+  .fv { padding-block: 10px; }
   .fv-stage { aspect-ratio: 1.6 / 1; border-radius: 12px; }
   .fv-date { left: 8px; top: 8px; padding: 6px 10px; min-width: 0; }
   .fv-date strong { font-size: 16px; }
-  .fv-legend { right: 8px; bottom: 8px; min-width: 0; padding: 6px 8px; }
-  .fv-legend-row { font-size: 11px; line-height: 18px; }
+  .fv-legend { left: 8px; right: 8px; bottom: 8px; min-width: 0; padding: 4px 8px; display: flex; flex-wrap: wrap; gap: 0 10px; }
+  .fv-legend-row { font-size: 11px; line-height: 18px; gap: 4px; }
+  .fv-legend-name { flex: none; }
+  .fv-swatch { width: 9px; height: 9px; }
 }

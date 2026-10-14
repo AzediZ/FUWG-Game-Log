@@ -358,10 +358,14 @@ async function start(ui, game, map, mapBase) {
     const w = Math.max(1, Math.round(rect.width * dpr()));
     const h = Math.max(1, Math.round(rect.height * dpr()));
     if (w === ui.canvas.width && h === ui.canvas.height && st.view) return;
-    const wasFit = !st.view || st.view.scale >= fitScale() * 0.999;
+    const wasHome = !st.view || st.view.home;
     ui.canvas.width = w;
     ui.canvas.height = h;
-    if (!st.view || wasFit) st.view = { cx: mapW / 2, cy: mapH / 2, scale: fitScale() };
+    if (wasHome) {
+      // Fill the stage height; on narrow screens that means panning sideways, starting on Europe.
+      const scale = Math.min(fitScale(), mapH / h);
+      st.view = { cx: scale < fitScale() * 0.999 ? mapW * 0.55 : mapW / 2, cy: mapH / 2, scale, home: true };
+    }
     clampView();
     requestDraw();
   };
@@ -468,6 +472,7 @@ async function start(ui, game, map, mapBase) {
     return [v.cx + (x - ui.canvas.width / 2) * v.scale, v.cy + (y - ui.canvas.height / 2) * v.scale];
   };
   const zoomAt = (pt, factor) => {
+    st.view.home = false;
     const before = toMap(pt);
     st.view.scale *= factor;
     clampView();
@@ -496,6 +501,7 @@ async function start(ui, game, map, mapBase) {
     const prev = pointers.get(e.pointerId);
     pointers.set(e.pointerId, pt);
     if (pointers.size === 1) {
+      st.view.home = false;
       st.view.cx -= (pt[0] - prev[0]) * st.view.scale;
       st.view.cy -= (pt[1] - prev[1]) * st.view.scale;
       clampView();

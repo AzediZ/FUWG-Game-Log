@@ -232,7 +232,7 @@ const game = {
   map: mapRel,
   dates,
   days: dates.map(dayNumber),
-  palette: { sea: '#1b4386', lake: '#2c5aa0', waste: '#4a4d52', background: '#0b1020', ...(overrides.palette?.map || {}) },
+  palette: { sea: '#1b4386', lake: '#24508f', waste: '#3a3d43', background: '#0b1020', ...(overrides.palette?.map || {}) },
   factions,
   countries,
   initial: Array.from(frames[0]),
